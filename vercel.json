@@ -2,16 +2,47 @@
   "version": 2,
   "builds": [
     {
-      "src": "package.json",
+      "src": "packages/c25-agent/backend/index.js",
+      "use": "@vercel/node"
+    },
+    {
+      "src": "packages/faceprintpay/pathos-ai/virtual-platform/backend/server.js",
+      "use": "@vercel/node"
+    },
+    {
+      "src": "packages/constellation25/server.js",
+      "use": "@vercel/node"
+    },
+    {
+      "src": "apps/web/**",
       "use": "@vercel/static-build",
       "config": {
-        "distDir": "public"
+        "distDir": "dist"
       }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/c25/(.*)",
+      "dest": "packages/c25-agent/backend/index.js"
+    },
+    {
+      "src": "/api/pathos/(.*)",
+      "dest": "packages/faceprintpay/pathos-ai/virtual-platform/backend/server.js"
+    },
+    {
+      "src": "/api/constellation/(.*)",
+      "dest": "packages/constellation25/server.js"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "apps/web/$1"
     }
   ],
   "env": {
     "NODE_ENV": "production",
-    "C25_AGENT_DEPLOY": "true"
+    "C25_AGENT_DEPLOY": "true",
+    "MONOREPO_ROOT": "."
   },
   "github": {
     "silent": true,
