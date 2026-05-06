@@ -1,0 +1,45 @@
+{
+  "name": "@c25/agent-core",
+  "version": "1.0.0",
+  "description": "C25 Constellation25 Core Agent - Central orchestration system",
+  "main": "backend/index.js",
+  "scripts": {
+    "start": "node backend/index.js",
+    "dev": "nodemon backend/index.js",
+    "test": "bash tests/test.sh",
+    "build": "echo 'Building c25-agent-core...' && npm run build:backend",
+    "build:backend": "echo 'Backend build complete'",
+    "lint": "eslint backend/**/*.js"
+  },
+  "keywords": [
+    "c25",
+    "agent",
+    "ai",
+    "constellation25",
+    "faceprintpay"
+  ],
+  "author": "Cygel White / FacePrintPay",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1",
+    "jsonwebtoken": "^9.0.2",
+    "bcryptjs": "^2.4.3",
+    "multer": "^1.4.5-lts.1",
+    "axios": "^1.6.0",
+    "graphql": "^16.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "eslint": "^8.57.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FacePrintPay/c25-agent-core.git"
+  }
+}

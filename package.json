@@ -1,13 +1,43 @@
 {
-  "name": "c25-agent-api",
-  "version": "2.0.0",
-  "private": false,
+  "name": "c25-monorepo",
+  "version": "1.0.0",
+  "description": "C25 Constellation25 Monorepo - FacePrintPay AI Ecosystem",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "packages/c25-agent/*",
+    "packages/faceprintpay/*",
+    "apps/*"
+  ],
   "scripts": {
-    "start": "echo 'Constellation25 module: c25-agent-api'",
-    "build": "echo 'Build complete'"
+    "build": "npm run build --workspaces --if-present",
+    "test": "npm run test --workspaces --if-present",
+    "start": "npm run start --workspaces --if-present",
+    "dev": "npm run dev --workspaces --if-present",
+    "lint": "eslint packages/**/src/** apps/**/src/**",
+    "format": "prettier --write \"packages/**/*.{js,ts,tsx}\" \"apps/**/*.{js,ts,tsx}\""
   },
-  "constellation25": {
-    "build_id": "20260402_015540",
-    "agent": "pathos-sovereign-1"
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "keywords": [
+    "ai",
+    "agent",
+    "constellation25",
+    "faceprintpay",
+    "pathos",
+    "versed"
+  ],
+  "author": "Cygel White / FacePrintPay",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FacePrintPay/c25-monorepo.git"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "prettier": "^3.2.5",
+    "typescript": "^5.4.0"
   }
 }
