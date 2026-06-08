@@ -1,73 +1,44 @@
 ```
 # Dependencies
 node_modules/
-**/node_modules/
 
-# Build artifacts
-dist/
-**/dist/
-build/
-**/build/
-target/
-**/target/
-
-# Package lock files
-package-lock.json
-**/package-lock.json
-
-# Python cache
-__pycache__/
-**/__pycache__/
-*.pyc
-**/*.pyc
-
-# Virtual environments
-venv/
-**/venv/
+# Environment variables
 .env
 .env.local
 .env.*
 
-# IDE and editor files
+# IDE files
 .vscode/
-**/.vscode/
 .idea/
-**/.idea/
 *.swp
 *.swo
-*.tmp
 
 # Logs
 *.log
-**/*.log
+
+# Temporary files
+*.tmp
+
+# Python cache (if any Python files exist in the project)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Build outputs (if any build process exists)
+dist/
+build/
+target/
+
+# Coverage reports
+coverage/
+htmlcov/
+.coverage
+
+# Local configuration that might be generated
+config.local.js
 
 # OS generated files
 .DS_Store
 Thumbs.db
-
-# Gradle
-.gradle/
-**/.gradle/
-build.gradle
-settings.gradle
-gradlew
-gradlew.bat
-local.properties
-
-# Go
-**/*.mod
-**/*.sum
-
-# Android
-**/gradle-wrapper.jar
-**/gradle-wrapper.properties
-**/keystore.enc
-**/server_creds.json.enc
-**/key_rotation.state
-
-# Reports
-**/reports/
-
-# Temporary files
-console.log.*
 ```
