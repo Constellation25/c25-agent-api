@@ -63,11 +63,11 @@ def main():
     os.makedirs(os.path.dirname(inventory_path), exist_ok=True)
     
     with open(inventory_path, 'w') as f:
-        f.write(f"C25 SOVEREIGN PATH MESH - MASTER INVENTORY\n")
+        f.write("C25 SOVEREIGN PATH MESH - MASTER INVENTORY\n")
         f.write(f"Generated: {datetime.utcnow().isoformat()}\n")
-        f.write(f"=\"*60}\n\n")
+        f.write("=" * 60 + "\n\n")
         f.write(f"Ecosystem Stats: {json.dumps(stats)}\n\n")
-        f.write(f"Registered Agents:\n")
+        f.write("Registered Agents:\n")
         for name, cap in mesh_with_agents.agent_registry.items():
             f.write(f"  - {name}: {cap.description}\n")
             f.write(f"    Endpoint: {cap.endpoint}\n")

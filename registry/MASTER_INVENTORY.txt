@@ -1,7 +1,17 @@
-  [c25-agent] 11 files, 1 entry points
-  [constellation25] 3 files, 1 entry points
-  [faceprintpay] 40 files, 1 entry points
-  [c25-agent] 11 files, 1 entry points
-  [c25-agent] 11 files, 1 entry points
-  [constellation25] 3 files, 1 entry points
-  [faceprintpay] 40 files, 1 entry points
+C25 SOVEREIGN PATH MESH - MASTER INVENTORY
+Generated: 2026-06-26T09:06:20.378532
+============================================================
+
+Ecosystem Stats: {"error": "HTTPConnectionPool(host='127.0.0.1', port=8989): Max retries exceeded with url: /stats (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f666f6f9310>: Failed to establish a new connection: [Errno 111] Connection refused'))", "total": 0}
+
+Registered Agents:
+  - CodeAnalyzer: Autonomous agent specialized in code_analysis
+    Endpoint: /agents/CodeAnalyzer/execute
+  - EndpointRouter: Autonomous agent specialized in endpoint_routing
+    Endpoint: /agents/EndpointRouter/execute
+  - DataSync: Autonomous agent specialized in data_synchronization
+    Endpoint: /agents/DataSync/execute
+  - GeneralPurpose: Autonomous agent specialized in general_tasks
+    Endpoint: /agents/GeneralPurpose/execute
+
+Node Registry: 0 nodes cached
