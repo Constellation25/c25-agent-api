@@ -1,8 +1,22 @@
-require('dotenv').config();
-const express = require('express');
-const cors = require('cors');
-const bodyParser = require('body-parser');
-const path = require('path');
+import 'dotenv/config';
+import express from 'express';
+import cors from 'cors';
+import path from 'path';
+import { fileURLToPath } from 'url';
+import { errorHandler } from './middleware/errorHandler.js';
+
+// Import routes
+import arxivRoutes from './routes/arxiv.js';
+import graphqlRoutes from './routes/graphql.js';
+import weatherRoutes from './routes/weather.js';
+import authRoutes from './routes/authentication.js';
+import uploadRoutes from './routes/upload.js';
+import searchRoutes from './routes/search.js';
+import paymentRoutes from './routes/payment.js';
+
+// ES module equivalent of __dirname
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 // Initialize express app
 const app = express();
@@ -10,20 +24,11 @@ const PORT = process.env.PORT || 3000;
 
 // Middleware
 app.use(cors());
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: true }));
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 
 // Serve static files from uploads directory
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
-
-// Import routes
-const arxivRoutes = require('./routes/arxiv');
-const graphqlRoutes = require('./routes/graphql');
-const weatherRoutes = require('./routes/weather');
-const authRoutes = require('./routes/authentication');
-const uploadRoutes = require('./routes/upload');
-const searchRoutes = require('./routes/search');
-const paymentRoutes = require('./routes/payment');
 
 // Mount routes
 app.use('/api/arxiv', arxivRoutes);
@@ -34,24 +39,28 @@ app.use('/api/upload', uploadRoutes);
 app.use('/api/search', searchRoutes);
 app.use('/api/payment', paymentRoutes);
 
-// Error handling middleware
-app.use((err, req, res, next) => {
-    console.error(err.stack);
-    res.status(err.status || 500).json({
-        error: {
-            message: err.message || 'Internal Server Error',
-            status: err.status || 500
+// Health check endpoint
+app.get('/health', (_req, res) => {
+    res.json({ status: 'OK', timestamp: new Date() });
+});
+
+// Root endpoint
+app.get('/', (_req, res) => {
+    res.json({ 
+        name: 'C25 Agent API',
+        version: '1.0.0',
+        endpoints: {
+            health: '/health',
+            api: '/api'
         }
     });
 });
 
-// Health check endpoint
-app.get('/health', (req, res) => {
-    res.json({ status: 'OK', timestamp: new Date() });
-});
+// Error handling middleware (must be last)
+app.use(errorHandler);
 
 // Start server
-app.listen(PORT, () => {
+const server = app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
     console.log(`Health check available at http://localhost:${PORT}/health`);
 });
@@ -59,6 +68,18 @@ app.listen(PORT, () => {
 // Handle unhandled promise rejections
 process.on('unhandledRejection', (err) => {
     console.error('Unhandled Promise Rejection:', err);
-    // In production, you might want to do some cleanup here
-    // process.exit(1);
+    server.close(() => {
+        process.exit(1);
+    });
 });
+
+// Graceful shutdown
+process.on('SIGTERM', () => {
+    console.log('SIGTERM received. Shutting down gracefully...');
+    server.close(() => {
+        console.log('Server closed');
+        process.exit(0);
+    });
+});
+
+export default app;

@@ -1,12 +1,12 @@
+import config from '../config/config.js';
+
 /**
  * Global error handling middleware
  * Processes errors and returns standardized error responses
  */
 
-const config = require('../config/config');
-
 // Custom error class for API errors
-class APIError extends Error {
+export class APIError extends Error {
     constructor(message, status = 500, details = null) {
         super(message);
         this.name = 'APIError';
@@ -16,7 +16,7 @@ class APIError extends Error {
 }
 
 // Error handler middleware
-const errorHandler = (err, req, res, next) => {
+export const errorHandler = (err, req, res, next) => {
     // Log error for debugging
     console.error('Error:', {
         message: err.message,
@@ -45,12 +45,6 @@ const errorHandler = (err, req, res, next) => {
 };
 
 // Async handler wrapper to catch promise rejections
-const asyncHandler = (fn) => (req, res, next) => {
+export const asyncHandler = (fn) => (req, res, next) => {
     Promise.resolve(fn(req, res, next)).catch(next);
-};
-
-module.exports = {
-    errorHandler,
-    APIError,
-    asyncHandler
 };
