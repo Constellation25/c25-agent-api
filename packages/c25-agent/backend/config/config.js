@@ -1,7 +1,5 @@
-require('dotenv').config();
-
-module.exports = {
-    // Server configuration
+// Server configuration
+export default {
     server: {
         port: process.env.PORT || 3000,
         env: process.env.NODE_ENV || 'development'

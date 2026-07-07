@@ -1,4 +1,8 @@
 ```
+# Dependencies
+node_modules/
+
+# Environment variables
 # Build artifacts and distributions
 build/
 dist/
@@ -24,11 +28,29 @@ __pycache__/
 .env.local
 *.env.*
 
+# IDE files
 # Editor/IDE files
 .vscode/
 .idea/
 *.swp
 *.swo
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+
+# Python cache (if any Python files exist in the project)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Build outputs (if any build process exists)
+dist/
+build/
+target/
 
 # OS files
 .DS_Store
@@ -39,6 +61,12 @@ coverage/
 htmlcov/
 .coverage
 
+# Local configuration that might be generated
+config.local.js
+
+# OS generated files
+.DS_Store
+Thumbs.db
 # Compressed files
 *.zip
 *.gz
