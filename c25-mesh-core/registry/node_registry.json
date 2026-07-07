@@ -1,0 +1,98 @@
+{
+  "nodes": {},
+  "agents": {
+    "CodeAnalyzer": {
+      "name": "CodeAnalyzer",
+      "description": "Autonomous agent specialized in code_analysis",
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "task": {
+            "type": "string"
+          },
+          "context": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "task"
+        ]
+      },
+      "endpoint": "/agents/CodeAnalyzer/execute",
+      "method": "POST"
+    },
+    "EndpointRouter": {
+      "name": "EndpointRouter",
+      "description": "Autonomous agent specialized in endpoint_routing",
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "task": {
+            "type": "string"
+          },
+          "context": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "task"
+        ]
+      },
+      "endpoint": "/agents/EndpointRouter/execute",
+      "method": "POST"
+    },
+    "DataSync": {
+      "name": "DataSync",
+      "description": "Autonomous agent specialized in data_synchronization",
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "task": {
+            "type": "string"
+          },
+          "context": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "task"
+        ]
+      },
+      "endpoint": "/agents/DataSync/execute",
+      "method": "POST"
+    },
+    "GeneralPurpose": {
+      "name": "GeneralPurpose",
+      "description": "Autonomous agent specialized in general_tasks",
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "task": {
+            "type": "string"
+          },
+          "context": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "task"
+        ]
+      },
+      "endpoint": "/agents/GeneralPurpose/execute",
+      "method": "POST"
+    }
+  },
+  "updated": "2026-06-26T09:06:20.377946"
+}
