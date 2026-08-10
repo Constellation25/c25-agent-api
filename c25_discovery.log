@@ -1,0 +1,1059 @@
+[0;36m[*] C25 Discovery Protocol initiated...[0m
+[1;33m[*] Scanning entire filesystem for sovereign modules...[0m
+[1;33m[*] Scanning for: FacePrintPay[0m
+[1;33m[*] Scanning for: faceprintpays[0m
+[1;33m[*] Scanning for: biometric[0m
+xargs: unmatched single quote; by default quotes are special to xargs unless you use the -0 option
+[1;33m[*] Scanning for: MyBuyO[0m
+[1;33m[*] Scanning for: mybuyo[0m
+[1;33m[*] Scanning for: cbdc[0m
+[1;33m[*] Scanning for: digital-currency[0m
+[1;33m[*] Scanning for: VideoCourts[0m
+[1;33m[*] Scanning for: videocourts[0m
+[1;33m[*] Scanning for: legal-tech[0m
+[1;33m[*] Scanning for: agentik[0m
+[1;33m[*] Scanning for: agent-framework[0m
+[1;33m[*] Scanning for: TotalRecall[0m
+[1;33m[*] Scanning for: totalrecall[0m
+[1;33m[*] Scanning for: forensic[0m
+[1;33m[*] Scanning for: evidence[0m
+[1;33m[*] Scanning for: Constellation25[0m
+[1;33m[*] Scanning for: constellation25[0m
+[1;33m[*] Scanning for: c25[0m
+[1;33m[*] Scanning for: AiMetaverse[0m
+[1;33m[*] Scanning for: aimetaverse[0m
+[1;33m[*] Scanning for: metaverse[0m
+xargs: unmatched single quote; by default quotes are special to xargs unless you use the -0 option
+[1;33m[*] Scanning for: AiKre8tive[0m
+[1;33m[*] Scanning for: aikre8tive[0m
+[1;33m[*] Scanning for: kre8tive[0m
+xargs: unmatched single quote; by default quotes are special to xargs unless you use the -0 option
+[1;33m[*] Scanning for: sovereign[0m
+[1;33m[*] Scanning for: sovereign-genesis[0m
+[1;33m[*] Scanning for: sovereign-kre8tive[0m
+[1;33m[*] Scanning for: planetary-agents[0m
+[1;33m[*] Scanning for: earth-agent[0m
+[1;33m[*] Scanning for: moon-agent[0m
+[1;33m[*] Scanning for: mars-agent[0m
+[1;33m[*] Scanning for: jupiter-agent[0m
+[1;33m[*] Scanning for: saturn-agent[0m
+[1;33m[*] Scanning for: uranus-agent[0m
+[1;33m[*] Scanning for: neptune-agent[0m
+[1;33m[*] Scanning for: pluto-agent[0m
+[1;33m[*] Scanning for: venus-agent[0m
+[1;33m[*] Scanning for: mercury-agent[0m
+[1;33m[*] Scanning for: andromeda-agent[0m
+[1;33m[*] Scanning for: claude-artifacts[0m
+[1;33m[*] Scanning for: artifacts-downloader[0m
+[1;33m[*] Scanning for: empathic-voice[0m
+[1;33m[*] Scanning for: voice-interface[0m
+[1;33m[*] Scanning for: json-formatter[0m
+[1;33m[*] Scanning for: coral-server[0m
+[1;33m[*] Scanning for: repodepot[0m
+[1;33m[*] Scanning for: ai-records[0m
+[1;33m[*] Scanning for global entry points...[0m
+[1;33m[*] Scanning for orchestrators & routers...[0m
+[1;33m[*] Detecting Vercel projects...[0m
+[1;33m[*] Detecting Git repositories...[0m
+[1;33m[*] Detecting Obsidian vaults...[0m
+dirname: missing operand
+Try 'dirname --help' for more information.
+[0;32m════════════════════════════════════════════[0m
+[0;32m[✓] Discovery complete![0m
+[0;36mMap written to: /workspace/c25_discovery_map.json[0m
+[1;33m[*] Now paste the contents of this file back to me.[0m
+[0;32m════════════════════════════════════════════[0m
+
+[0;36m--- MAP CONTENTS (copy everything below) ---[0m
+{
+  "timestamp": "2026-08-10T11:39:19Z",
+  "modules": [
+    {
+      "name": "FacePrintPay",
+      "file_count": 36,
+      "locations": [
+        "/workspace/public/vercel.json",
+        "/workspace/packages/c25-agent/pipeline/index.html",
+        "/workspace/packages/c25-agent/pipeline/package.json",
+        "/workspace/packages/c25-agent/pipeline/README.md",
+        "/workspace/packages/c25-agent/integrations/index.html",
+        "/workspace/packages/c25-agent/integrations/package.json",
+        "/workspace/packages/c25-agent/integrations/README.md",
+        "/workspace/packages/c25-agent/index.html",
+        "/workspace/packages/c25-agent/package.json",
+        "/workspace/packages/c25-agent/api/index.html",
+        "/workspace/packages/c25-agent/api/package.json",
+        "/workspace/packages/c25-agent/api/README.md",
+        "/workspace/packages/c25-agent/README.md",
+        "/workspace/packages/constellation25/C25_Empire.ipynb",
+        "/workspace/packages/constellation25/c25_sovereign_pack/BARD_SHA256_MANIFEST.txt",
+        "/workspace/packages/constellation25/c25_sovereign_pack/C25_SOVEREIGN_MASTER.md",
+        "/workspace/packages/constellation25/README.md",
+        "/workspace/packages/constellation25/orchestrator.js",
+        "/workspace/packages/faceprintpay/pathos-ai/index.html",
+        "/workspace/packages/faceprintpay/pathos-ai/README.md",
+        "/workspace/packages/faceprintpay/sovereign-genesis/public/index.html",
+        "/workspace/packages/faceprintpay/sovereign-genesis/index.html",
+        "/workspace/packages/faceprintpay/sovereign-genesis/README.md",
+        "/workspace/packages/faceprintpay/versed-ai/public/index.html",
+        "/workspace/packages/faceprintpay/versed-ai/index.html",
+        "/workspace/packages/faceprintpay/versed-ai/README.md",
+        "/workspace/c25_discover.sh",
+        "/workspace/c25_discovery.log",
+        "/workspace/C25_25x25_MANIFEST.md",
+        "/workspace/projects/C25_MASTER_REGISTRY.md",
+        "/workspace/projects/constellation-25/README.md",
+        "/workspace/C25_COMPLETE_BUILD_MANIFEST.md",
+        "/workspace/package.json",
+        "/workspace/vercel.json",
+        "/workspace/.github/workflows/faceprintpay-deploy.yml",
+        "/workspace/README.md"
+      ],
+      "entry_points": ["/workspace/vercel.json", "/workspace/package.json", "/workspace/packages/c25-agent/vercel.json", "/workspace/packages/c25-agent/package.json", "/workspace/packages/c25-agent/Dockerfile", "/workspace/packages/c25-agent/api/vercel.json", "/workspace/packages/c25-agent/api/package.json", "/workspace/packages/c25-agent/api/Dockerfile", "/workspace/packages/c25-agent/integrations/vercel.json", "/workspace/packages/c25-agent/integrations/package.json", "/workspace/packages/c25-agent/integrations/Dockerfile", "/workspace/packages/c25-agent/pipeline/vercel.json", "/workspace/packages/c25-agent/pipeline/package.json", "/workspace/packages/c25-agent/pipeline/Dockerfile", "/workspace/packages/constellation25/server.js", "/workspace/packages/constellation25/vercel.json", "/workspace/packages/constellation25/package.json", "/workspace/packages/constellation25/Dockerfile", "/workspace/packages/faceprintpay/pathos-ai/vercel.json", "/workspace/packages/faceprintpay/sovereign-genesis/vercel.json", "/workspace/packages/faceprintpay/sovereign-genesis/package.json", "/workspace/packages/faceprintpay/versed-ai/vercel.json", "/workspace/packages/faceprintpay/versed-ai/public/vercel.json", "/workspace/public/vercel.json"],
+      "orchestrators": ["/workspace/public/manifest.json", "/workspace/public/vercel.json", "/workspace/.c25_mesh.env", "/workspace/packages/c25-agent/backend/middleware/auth.js", "/workspace/packages/c25-agent/backend/middleware/errorHandler.js", "/workspace/packages/c25-agent/backend/config/config.js", "/workspace/packages/c25-agent/backend/package.json", "/workspace/packages/c25-agent/backend/index.js", "/workspace/packages/c25-agent/backend/routes/authentication.js", "/workspace/packages/c25-agent/backend/routes/search.js", "/workspace/packages/c25-agent/backend/routes/weather.js", "/workspace/packages/c25-agent/backend/routes/upload.js", "/workspace/packages/c25-agent/backend/routes/payment.js", "/workspace/packages/c25-agent/backend/routes/graphql.js", "/workspace/packages/c25-agent/tests/test.sh", "/workspace/packages/c25-agent/pipeline/tests/test.sh", "/workspace/packages/c25-agent/integrations/tests/test.sh", "/workspace/packages/c25-agent/package.json", "/workspace/packages/c25-agent/api/public/index.html", "/workspace/packages/c25-agent/api/tests/test.sh"]
+    },
+    {
+      "name": "faceprintpays",
+      "file_count": 2,
+      "locations": [
+        "/workspace/c25_discover.sh",
+        "/workspace/c25_discovery.log"
+      ],
+      "entry_points": ["/workspace/vercel.json", "/workspace/package.json"],
+      "orchestrators": ["/workspace/public/manifest.json", "/workspace/public/vercel.json", "/workspace/.c25_mesh.env", "/workspace/c25_discovery_map.json", "/workspace/packages/c25-agent/backend/middleware/auth.js", "/workspace/packages/c25-agent/backend/middleware/errorHandler.js", "/workspace/packages/c25-agent/backend/config/config.js", "/workspace/packages/c25-agent/backend/package.json", "/workspace/packages/c25-agent/backend/index.js", "/workspace/packages/c25-agent/backend/routes/authentication.js", "/workspace/packages/c25-agent/backend/routes/search.js", "/workspace/packages/c25-agent/backend/routes/weather.js", "/workspace/packages/c25-agent/backend/routes/upload.js", "/workspace/packages/c25-agent/backend/routes/payment.js", "/workspace/packages/c25-agent/backend/routes/graphql.js", "/workspace/packages/c25-agent/tests/test.sh", "/workspace/packages/c25-agent/pipeline/tests/test.sh", "/workspace/packages/c25-agent/integrations/tests/test.sh", "/workspace/packages/c25-agent/package.json", "/workspace/packages/c25-agent/api/public/index.html"]
+    },
+    {
+      "name": "biometric",
+      "file_count": 17,
+      "locations": [
+        "/workspace/packages/c25-agent/pipeline/README.md",
+        "/workspace/packages/c25-agent/integrations/README.md",
+        "/workspace/packages/c25-agent/api/README.md",
+        "/workspace/packages/c25-agent/README.md",
+        "/workspace/packages/constellation25/add_agents.js",
+        "/workspace/packages/constellation25/README.md",
+        "/workspace/packages/constellation25/orchestrator.js",
+        "/workspace/packages/faceprintpay/pathos-ai/-PaTHos- (Cygel White's conflicted copy).html",
+        "/workspace/packages/faceprintpay/pathos-ai/README.md",
+        "/workspace/packages/faceprintpay/sovereign-genesis/README.md",
+        "/workspace/packages/faceprintpay/versed-ai/public/index.html",
+        "/workspace/packages/faceprintpay/versed-ai/README.md",
+        "/workspace/c25_discover.sh",
+        "/workspace/c25_discovery.log",
+        "/workspace/C25_25x25_MANIFEST.md",
+        "/workspace/projects/videocourts/README.md",
+        "/workspace/projects/pathos/README.md"
+      ],
+      "entry_points": ["/workspace/packages/c25-agent/vercel.json", "/workspace/packages/c25-agent/package.json", "/workspace/packages/c25-agent/Dockerfile", "/workspace/packages/c25-agent/api/vercel.json", "/workspace/packages/c25-agent/api/package.json", "/workspace/packages/c25-agent/api/Dockerfile", "/workspace/packages/c25-agent/integrations/vercel.json", "/workspace/packages/c25-agent/integrations/package.json", "/workspace/packages/c25-agent/integrations/Dockerfile", "/workspace/packages/c25-agent/pipeline/vercel.json", "/workspace/packages/c25-agent/pipeline/package.json", "/workspace/packages/c25-agent/pipeline/Dockerfile", "/workspace/packages/constellation25/server.js", "/workspace/packages/constellation25/vercel.json", "/workspace/packages/constellation25/package.json", "/workspace/packages/constellation25/Dockerfile"],
+      "orchestrators": ["/workspace/public/manifest.json", "/workspace/public/vercel.json", "/workspace/.c25_mesh.env", "/workspace/c25_discovery_map.json", "/workspace/packages/c25-agent/backend/middleware/auth.js", "/workspace/packages/c25-agent/backend/middleware/errorHandler.js", "/workspace/packages/c25-agent/backend/config/config.js", "/workspace/packages/c25-agent/backend/package.json", "/workspace/packages/c25-agent/backend/index.js", "/workspace/packages/c25-agent/backend/routes/authentication.js", "/workspace/packages/c25-agent/backend/routes/search.js", "/workspace/packages/c25-agent/backend/routes/weather.js", "/workspace/packages/c25-agent/backend/routes/upload.js", "/workspace/packages/c25-agent/backend/routes/payment.js", "/workspace/packages/c25-agent/backend/routes/graphql.js", "/workspace/packages/c25-agent/tests/test.sh", "/workspace/packages/c25-agent/pipeline/tests/test.sh", "/workspace/packages/c25-agent/integrations/tests/test.sh", "/workspace/packages/c25-agent/package.json", "/workspace/packages/c25-agent/api/public/index.html"]
+    },
+    {
+      "name": "MyBuyO",
+      "file_count": 9,
+      "locations": [
+        "/workspace/packages/constellation25/orchestrator.js",
+        "/workspace/c25_discover.sh",
+        "/workspace/c25_discovery.log",
+        "/workspace/C25_25x25_MANIFEST.md",
+        "/workspace/projects/videocourts/README.md",
+        "/workspace/projects/arcai/README.md",
+        "/workspace/projects/C25_MASTER_REGISTRY.md",
+        "/workspace/projects/mybuyo/README.md",
+        "/workspace/projects/cygnus-pipeline/README.md"
+      ],
+      "entry_points": ["/workspace/vercel.json", "/workspace/package.json", "/workspace/packages/constellation25/server.js", "/workspace/packages/constellation25/vercel.json", "/workspace/packages/constellation25/package.json", "/workspace/packages/constellation25/Dockerfile"],
+      "orchestrators": ["/workspace/public/manifest.json", "/workspace/public/vercel.json", "/workspace/.c25_mesh.env", "/workspace/c25_discovery_map.json", "/workspace/packages/c25-agent/backend/middleware/auth.js", "/workspace/packages/c25-agent/backend/middleware/errorHandler.js", "/workspace/packages/c25-agent/backend/config/config.js", "/workspace/packages/c25-agent/backend/package.json", "/workspace/packages/c25-agent/backend/index.js", "/workspace/packages/c25-agent/backend/routes/authentication.js", "/workspace/packages/c25-agent/backend/routes/search.js", "/workspace/packages/c25-agent/backend/routes/weather.js", "/workspace/packages/c25-agent/backend/routes/upload.js", "/workspace/packages/c25-agent/backend/routes/payment.js", "/workspace/packages/c25-agent/backend/routes/graphql.js", "/workspace/packages/c25-agent/tests/test.sh", "/workspace/packages/c25-agent/pipeline/tests/test.sh", "/workspace/packages/c25-agent/integrations/tests/test.sh", "/workspace/packages/c25-agent/package.json", "/workspace/packages/c25-agent/api/public/index.html"]
+    },
+    {
+      "name": "mybuyo",
+      "file_count": 10,
+      "locations": [
+        "/workspace/c25_discovery_map.json",
+        "/workspace/packages/constellation25/orchestrator.js",
+        "/workspace/c25_discover.sh",
+        "/workspace/c25_discovery.log",
+        "/workspace/C25_25x25_MANIFEST.md",
+        "/workspace/projects/videocourts/README.md",
+        "/workspace/projects/arcai/README.md",
+        "/workspace/projects/C25_MASTER_REGISTRY.md",
+        "/workspace/projects/mybuyo/README.md",
+        "/workspace/projects/cygnus-pipeline/README.md"
+      ],
+      "entry_points": ["/workspace/vercel.json", "/workspace/package.json", "/workspace/packages/constellation25/server.js", "/workspace/packages/constellation25/vercel.json", "/workspace/packages/constellation25/package.json", "/workspace/packages/constellation25/Dockerfile"],
+      "orchestrators": ["/workspace/public/manifest.json", "/workspace/public/vercel.json", "/workspace/.c25_mesh.env", "/workspace/c25_discovery_map.json", "/workspace/packages/c25-agent/backend/middleware/auth.js", "/workspace/packages/c25-agent/backend/middleware/errorHandler.js", "/workspace/packages/c25-agent/backend/config/config.js", "/workspace/packages/c25-agent/backend/package.json", "/workspace/packages/c25-agent/backend/index.js", "/workspace/packages/c25-agent/backend/routes/authentication.js", "/workspace/packages/c25-agent/backend/routes/search.js", "/workspace/packages/c25-agent/backend/routes/weather.js", "/workspace/packages/c25-agent/backend/routes/upload.js", "/workspace/packages/c25-agent/backend/routes/payment.js", "/workspace/packages/c25-agent/backend/routes/graphql.js", "/workspace/packages/c25-agent/tests/test.sh", "/workspace/packages/c25-agent/pipeline/tests/test.sh", "/workspace/packages/c25-agent/integrations/tests/test.sh", "/workspace/packages/c25-agent/package.json", "/workspace/packages/c25-agent/api/public/index.html"]
+    },
+    {
+      "name": "cbdc",
+      "file_count": 4,
+      "locations": [
+        "/workspace/packages/constellation25/c25_sovereign_pack/BARD_SHA256_MANIFEST.txt",
+        "/workspace/packages/constellation25/orchestrator.js",
+        "/workspace/c25_discover.sh",
+        "/workspace/c25_discovery.log"
+      ],
+      "entry_points": ["/workspace/vercel.json", "/workspace/package.json", "/workspace/packages/constellation25/server.js", "/workspace/packages/constellation25/vercel.json", "/workspace/packages/constellation25/package.json", "/workspace/packages/constellation25/Dockerfile"],
+      "orchestrators": ["/workspace/public/manifest.json", "/workspace/public/vercel.json", "/workspace/.c25_mesh.env", "/workspace/c25_discovery_map.json", "/workspace/packages/c25-agent/backend/middleware/auth.js", "/workspace/packages/c25-agent/backend/middleware/errorHandler.js", "/workspace/packages/c25-agent/backend/config/config.js", "/workspace/packages/c25-agent/backend/package.json", "/workspace/packages/c25-agent/backend/index.js", "/workspace/packages/c25-agent/backend/routes/authentication.js", "/workspace/packages/c25-agent/backend/routes/search.js", "/workspace/packages/c25-agent/backend/routes/weather.js", "/workspace/packages/c25-agent/backend/routes/upload.js", "/workspace/packages/c25-agent/backend/routes/payment.js", "/workspace/packages/c25-agent/backend/routes/graphql.js", "/workspace/packages/c25-agent/tests/test.sh", "/workspace/packages/c25-agent/pipeline/tests/test.sh", "/workspace/packages/c25-agent/integrations/tests/test.sh", "/workspace/packages/c25-agent/package.json", "/workspace/packages/c25-agent/api/public/index.html"]
+    },
+    {
+      "name": "digital-currency",
+      "file_count": 2,
+      "locations": [
+        "/workspace/c25_discover.sh",
+        "/workspace/c25_discovery.log"
+      ],
+      "entry_points": ["/workspace/vercel.json", "/workspace/package.json"],
+      "orchestrators": ["/workspace/public/manifest.json", "/workspace/public/vercel.json", "/workspace/.c25_mesh.env", "/workspace/c25_discovery_map.json", "/workspace/packages/c25-agent/backend/middleware/auth.js", "/workspace/packages/c25-agent/backend/middleware/errorHandler.js", "/workspace/packages/c25-agent/backend/config/config.js", "/workspace/packages/c25-agent/backend/package.json", "/workspace/packages/c25-agent/backend/index.js", "/workspace/packages/c25-agent/backend/routes/authentication.js", "/workspace/packages/c25-agent/backend/routes/search.js", "/workspace/packages/c25-agent/backend/routes/weather.js", "/workspace/packages/c25-agent/backend/routes/upload.js", "/workspace/packages/c25-agent/backend/routes/payment.js", "/workspace/packages/c25-agent/backend/routes/graphql.js", "/workspace/packages/c25-agent/tests/test.sh", "/workspace/packages/c25-agent/pipeline/tests/test.sh", "/workspace/packages/c25-agent/integrations/tests/test.sh", "/workspace/packages/c25-agent/package.json", "/workspace/packages/c25-agent/api/public/index.html"]
+    },
+    {
+      "name": "VideoCourts",
+      "file_count": 11,
+      "locations": [
+        "/workspace/c25_discovery_map.json",
+        "/workspace/packages/constellation25/README.md",
+        "/workspace/packages/constellation25/orchestrator.js",
+        "/workspace/c25_discover.sh",
+        "/workspace/c25_discovery.log",
+        "/workspace/C25_25x25_MANIFEST.md",
+        "/workspace/projects/videocourts/README.md",
+        "/workspace/projects/arcai/README.md",
+        "/workspace/projects/C25_MASTER_REGISTRY.md",
+        "/workspace/projects/mybuyo/README.md",
+        "/workspace/projects/total-recall/README.md"
+      ],
+      "entry_points": ["/workspace/vercel.json", "/workspace/package.json", "/workspace/packages/constellation25/server.js", "/workspace/packages/constellation25/vercel.json", "/workspace/packages/constellation25/package.json", "/workspace/packages/constellation25/Dockerfile"],
+      "orchestrators": ["/workspace/public/manifest.json", "/workspace/public/vercel.json", "/workspace/.c25_mesh.env", "/workspace/c25_discovery_map.json", "/workspace/packages/c25-agent/backend/middleware/auth.js", "/workspace/packages/c25-agent/backend/middleware/errorHandler.js", "/workspace/packages/c25-agent/backend/config/config.js", "/workspace/packages/c25-agent/backend/package.json", "/workspace/packages/c25-agent/backend/index.js", "/workspace/packages/c25-agent/backend/routes/authentication.js", "/workspace/packages/c25-agent/backend/routes/search.js", "/workspace/packages/c25-agent/backend/routes/weather.js", "/workspace/packages/c25-agent/backend/routes/upload.js", "/workspace/packages/c25-agent/backend/routes/payment.js", "/workspace/packages/c25-agent/backend/routes/graphql.js", "/workspace/packages/c25-agent/tests/test.sh", "/workspace/packages/c25-agent/pipeline/tests/test.sh", "/workspace/packages/c25-agent/integrations/tests/test.sh", "/workspace/packages/c25-agent/package.json", "/workspace/packages/c25-agent/api/public/index.html"]
+    },
+    {
+      "name": "videocourts",
+      "file_count": 11,
+      "locations": [
+        "/workspace/c25_discovery_map.json",
+        "/workspace/packages/constellation25/README.md",
+        "/workspace/packages/constellation25/orchestrator.js",
+        "/workspace/c25_discover.sh",
+        "/workspace/c25_discovery.log",
+        "/workspace/C25_25x25_MANIFEST.md",
+        "/workspace/projects/videocourts/README.md",
+        "/workspace/projects/arcai/README.md",
+        "/workspace/projects/C25_MASTER_REGISTRY.md",
+        "/workspace/projects/mybuyo/README.md",
+        "/workspace/projects/total-recall/README.md"
+      ],
+      "entry_points": ["/workspace/vercel.json", "/workspace/package.json", "/workspace/packages/constellation25/server.js", "/workspace/packages/constellation25/vercel.json", "/workspace/packages/constellation25/package.json", "/workspace/packages/constellation25/Dockerfile"],
+      "orchestrators": ["/workspace/public/manifest.json", "/workspace/public/vercel.json", "/workspace/.c25_mesh.env", "/workspace/c25_discovery_map.json", "/workspace/packages/c25-agent/backend/middleware/auth.js", "/workspace/packages/c25-agent/backend/middleware/errorHandler.js", "/workspace/packages/c25-agent/backend/config/config.js", "/workspace/packages/c25-agent/backend/package.json", "/workspace/packages/c25-agent/backend/index.js", "/workspace/packages/c25-agent/backend/routes/authentication.js", "/workspace/packages/c25-agent/backend/routes/search.js", "/workspace/packages/c25-agent/backend/routes/weather.js", "/workspace/packages/c25-agent/backend/routes/upload.js", "/workspace/packages/c25-agent/backend/routes/payment.js", "/workspace/packages/c25-agent/backend/routes/graphql.js", "/workspace/packages/c25-agent/tests/test.sh", "/workspace/packages/c25-agent/pipeline/tests/test.sh", "/workspace/packages/c25-agent/integrations/tests/test.sh", "/workspace/packages/c25-agent/package.json", "/workspace/packages/c25-agent/api/public/index.html"]
+    },
+    {
+      "name": "legal-tech",
+      "file_count": 2,
+      "locations": [
+        "/workspace/c25_discover.sh",
+        "/workspace/c25_discovery.log"
+      ],
+      "entry_points": ["/workspace/vercel.json", "/workspace/package.json"],
+      "orchestrators": ["/workspace/public/manifest.json", "/workspace/public/vercel.json", "/workspace/.c25_mesh.env", "/workspace/c25_discovery_map.json", "/workspace/packages/c25-agent/backend/middleware/auth.js", "/workspace/packages/c25-agent/backend/middleware/errorHandler.js", "/workspace/packages/c25-agent/backend/config/config.js", "/workspace/packages/c25-agent/backend/package.json", "/workspace/packages/c25-agent/backend/index.js", "/workspace/packages/c25-agent/backend/routes/authentication.js", "/workspace/packages/c25-agent/backend/routes/search.js", "/workspace/packages/c25-agent/backend/routes/weather.js", "/workspace/packages/c25-agent/backend/routes/upload.js", "/workspace/packages/c25-agent/backend/routes/payment.js", "/workspace/packages/c25-agent/backend/routes/graphql.js", "/workspace/packages/c25-agent/tests/test.sh", "/workspace/packages/c25-agent/pipeline/tests/test.sh", "/workspace/packages/c25-agent/integrations/tests/test.sh", "/workspace/packages/c25-agent/package.json", "/workspace/packages/c25-agent/api/public/index.html"]
+    },
+    {
+      "name": "agentik",
+      "file_count": 16,
+      "locations": [
+        "/workspace/packages/constellation25/orchestrator.js",
+        "/workspace/c25_discover.sh",
+        "/workspace/c25_discovery.log",
+        "/workspace/C25_25x25_MANIFEST.md",
+        "/workspace/projects/videocourts/README.md",
+        "/workspace/projects/ROUTING_ARCHITECTURE.md",
+        "/workspace/projects/C25_MASTER_REGISTRY.md",
+        "/workspace/projects/mybuyo/README.md",
+        "/workspace/projects/total-recall/README.md",
+        "/workspace/projects/aimetaverse/README.md",
+        "/workspace/projects/pathos/README.md",
+        "/workspace/projects/agentik/README.md",
+        "/workspace/projects/constellation-25/README.md",
+        "/workspace/projects/planetary-agents/README.md",
+        "/workspace/projects/MASTER_BUILD_INDEX.md",
+        "/workspace/C25_COMPLETE_BUILD_MANIFEST.md"
+      ],
+      "entry_points": ["/workspace/vercel.json", "/workspace/package.json", "/workspace/packages/constellation25/server.js", "/workspace/packages/constellation25/vercel.json", "/workspace/packages/constellation25/package.json", "/workspace/packages/constellation25/Dockerfile"],
+      "orchestrators": ["/workspace/public/manifest.json", "/workspace/public/vercel.json", "/workspace/.c25_mesh.env", "/workspace/c25_discovery_map.json", "/workspace/packages/c25-agent/backend/middleware/auth.js", "/workspace/packages/c25-agent/backend/middleware/errorHandler.js", "/workspace/packages/c25-agent/backend/config/config.js", "/workspace/packages/c25-agent/backend/package.json", "/workspace/packages/c25-agent/backend/index.js", "/workspace/packages/c25-agent/backend/routes/authentication.js", "/workspace/packages/c25-agent/backend/routes/search.js", "/workspace/packages/c25-agent/backend/routes/weather.js", "/workspace/packages/c25-agent/backend/routes/upload.js", "/workspace/packages/c25-agent/backend/routes/payment.js", "/workspace/packages/c25-agent/backend/routes/graphql.js", "/workspace/packages/c25-agent/tests/test.sh", "/workspace/packages/c25-agent/pipeline/tests/test.sh", "/workspace/packages/c25-agent/integrations/tests/test.sh", "/workspace/packages/c25-agent/package.json", "/workspace/packages/c25-agent/api/public/index.html"]
+    },
+    {
+      "name": "agent-framework",
+      "file_count": 2,
+      "locations": [
+        "/workspace/c25_discover.sh",
+        "/workspace/c25_discovery.log"
+      ],
+      "entry_points": ["/workspace/vercel.json", "/workspace/package.json"],
+      "orchestrators": ["/workspace/public/manifest.json", "/workspace/public/vercel.json", "/workspace/.c25_mesh.env", "/workspace/c25_discovery_map.json", "/workspace/packages/c25-agent/backend/middleware/auth.js", "/workspace/packages/c25-agent/backend/middleware/errorHandler.js", "/workspace/packages/c25-agent/backend/config/config.js", "/workspace/packages/c25-agent/backend/package.json", "/workspace/packages/c25-agent/backend/index.js", "/workspace/packages/c25-agent/backend/routes/authentication.js", "/workspace/packages/c25-agent/backend/routes/search.js", "/workspace/packages/c25-agent/backend/routes/weather.js", "/workspace/packages/c25-agent/backend/routes/upload.js", "/workspace/packages/c25-agent/backend/routes/payment.js", "/workspace/packages/c25-agent/backend/routes/graphql.js", "/workspace/packages/c25-agent/tests/test.sh", "/workspace/packages/c25-agent/pipeline/tests/test.sh", "/workspace/packages/c25-agent/integrations/tests/test.sh", "/workspace/packages/c25-agent/package.json", "/workspace/packages/c25-agent/api/public/index.html"]
+    },
+    {
+      "name": "TotalRecall",
+      "file_count": 5,
+      "locations": [
+        "/workspace/packages/constellation25/c25_sovereign_pack/BARD_SHA256_MANIFEST.txt",
+        "/workspace/packages/constellation25/README.md",
+        "/workspace/packages/constellation25/orchestrator.js",
+        "/workspace/c25_discover.sh",
+        "/workspace/c25_discovery.log"
+      ],
+      "entry_points": ["/workspace/vercel.json", "/workspace/package.json", "/workspace/packages/constellation25/server.js", "/workspace/packages/constellation25/vercel.json", "/workspace/packages/constellation25/package.json", "/workspace/packages/constellation25/Dockerfile"],
+      "orchestrators": ["/workspace/public/manifest.json", "/workspace/public/vercel.json", "/workspace/.c25_mesh.env", "/workspace/c25_discovery_map.json", "/workspace/packages/c25-agent/backend/middleware/auth.js", "/workspace/packages/c25-agent/backend/middleware/errorHandler.js", "/workspace/packages/c25-agent/backend/config/config.js", "/workspace/packages/c25-agent/backend/package.json", "/workspace/packages/c25-agent/backend/index.js", "/workspace/packages/c25-agent/backend/routes/authentication.js", "/workspace/packages/c25-agent/backend/routes/search.js", "/workspace/packages/c25-agent/backend/routes/weather.js", "/workspace/packages/c25-agent/backend/routes/upload.js", "/workspace/packages/c25-agent/backend/routes/payment.js", "/workspace/packages/c25-agent/backend/routes/graphql.js", "/workspace/packages/c25-agent/tests/test.sh", "/workspace/packages/c25-agent/pipeline/tests/test.sh", "/workspace/packages/c25-agent/integrations/tests/test.sh", "/workspace/packages/c25-agent/package.json", "/workspace/packages/c25-agent/api/public/index.html"]
+    },
+    {
+      "name": "totalrecall",
+      "file_count": 6,
+      "locations": [
+        "/workspace/c25_discovery_map.json",
+        "/workspace/packages/constellation25/c25_sovereign_pack/BARD_SHA256_MANIFEST.txt",
+        "/workspace/packages/constellation25/README.md",
+        "/workspace/packages/constellation25/orchestrator.js",
+        "/workspace/c25_discover.sh",
+        "/workspace/c25_discovery.log"
+      ],
+      "entry_points": ["/workspace/vercel.json", "/workspace/package.json", "/workspace/packages/constellation25/server.js", "/workspace/packages/constellation25/vercel.json", "/workspace/packages/constellation25/package.json", "/workspace/packages/constellation25/Dockerfile"],
+      "orchestrators": ["/workspace/public/manifest.json", "/workspace/public/vercel.json", "/workspace/.c25_mesh.env", "/workspace/c25_discovery_map.json", "/workspace/packages/c25-agent/backend/middleware/auth.js", "/workspace/packages/c25-agent/backend/middleware/errorHandler.js", "/workspace/packages/c25-agent/backend/config/config.js", "/workspace/packages/c25-agent/backend/package.json", "/workspace/packages/c25-agent/backend/index.js", "/workspace/packages/c25-agent/backend/routes/authentication.js", "/workspace/packages/c25-agent/backend/routes/search.js", "/workspace/packages/c25-agent/backend/routes/weather.js", "/workspace/packages/c25-agent/backend/routes/upload.js", "/workspace/packages/c25-agent/backend/routes/payment.js", "/workspace/packages/c25-agent/backend/routes/graphql.js", "/workspace/packages/c25-agent/tests/test.sh", "/workspace/packages/c25-agent/pipeline/tests/test.sh", "/workspace/packages/c25-agent/integrations/tests/test.sh", "/workspace/packages/c25-agent/package.json", "/workspace/packages/c25-agent/api/public/index.html"]
+    },
+    {
+      "name": "forensic",
+      "file_count": 5,
+      "locations": [
+        "/workspace/packages/constellation25/README.md",
+        "/workspace/packages/constellation25/orchestrator.js",
+        "/workspace/c25_discover.sh",
+        "/workspace/c25_discovery.log",
+        "/workspace/projects/videocourts/README.md"
+      ],
+      "entry_points": ["/workspace/vercel.json", "/workspace/package.json", "/workspace/packages/constellation25/server.js", "/workspace/packages/constellation25/vercel.json", "/workspace/packages/constellation25/package.json", "/workspace/packages/constellation25/Dockerfile"],
+      "orchestrators": ["/workspace/public/manifest.json", "/workspace/public/vercel.json", "/workspace/.c25_mesh.env", "/workspace/c25_discovery_map.json", "/workspace/packages/c25-agent/backend/middleware/auth.js", "/workspace/packages/c25-agent/backend/middleware/errorHandler.js", "/workspace/packages/c25-agent/backend/config/config.js", "/workspace/packages/c25-agent/backend/package.json", "/workspace/packages/c25-agent/backend/index.js", "/workspace/packages/c25-agent/backend/routes/authentication.js", "/workspace/packages/c25-agent/backend/routes/search.js", "/workspace/packages/c25-agent/backend/routes/weather.js", "/workspace/packages/c25-agent/backend/routes/upload.js", "/workspace/packages/c25-agent/backend/routes/payment.js", "/workspace/packages/c25-agent/backend/routes/graphql.js", "/workspace/packages/c25-agent/tests/test.sh", "/workspace/packages/c25-agent/pipeline/tests/test.sh", "/workspace/packages/c25-agent/integrations/tests/test.sh", "/workspace/packages/c25-agent/package.json", "/workspace/packages/c25-agent/api/public/index.html"]
+    },
+    {
+      "name": "evidence",
+      "file_count": 12,
+      "locations": [
+        "/workspace/packages/constellation25/c25_sovereign_pack/BARD_SHA256_MANIFEST.txt",
+        "/workspace/packages/constellation25/c25_sovereign_pack/C25_SOVEREIGN_MASTER.md",
+        "/workspace/packages/constellation25/README.md",
+        "/workspace/packages/constellation25/orchestrator.js",
+        "/workspace/packages/faceprintpay/versed-ai/src/8.8ec4dac799489daeb8ca.looka.js",
+        "/workspace/packages/faceprintpay/versed-ai/src/10.21a8d5e7aa09c77a24ca.looka.js",
+        "/workspace/packages/faceprintpay/versed-ai/report.go",
+        "/workspace/c25_discover.sh",
+        "/workspace/c25_discovery.log",
+        "/workspace/projects/videocourts/README.md",
+        "/workspace/projects/arcai/README.md",
+        "/workspace/projects/C25_MASTER_REGISTRY.md"
+      ],
+      "entry_points": ["/workspace/vercel.json", "/workspace/package.json", "/workspace/packages/constellation25/server.js", "/workspace/packages/constellation25/vercel.json", "/workspace/packages/constellation25/package.json", "/workspace/packages/constellation25/Dockerfile", "/workspace/packages/faceprintpay/versed-ai/vercel.json"],
+      "orchestrators": ["/workspace/public/manifest.json", "/workspace/public/vercel.json", "/workspace/.c25_mesh.env", "/workspace/c25_discovery_map.json", "/workspace/packages/c25-agent/backend/middleware/auth.js", "/workspace/packages/c25-agent/backend/middleware/errorHandler.js", "/workspace/packages/c25-agent/backend/config/config.js", "/workspace/packages/c25-agent/backend/package.json", "/workspace/packages/c25-agent/backend/index.js", "/workspace/packages/c25-agent/backend/routes/authentication.js", "/workspace/packages/c25-agent/backend/routes/search.js", "/workspace/packages/c25-agent/backend/routes/weather.js", "/workspace/packages/c25-agent/backend/routes/upload.js", "/workspace/packages/c25-agent/backend/routes/payment.js", "/workspace/packages/c25-agent/backend/routes/graphql.js", "/workspace/packages/c25-agent/tests/test.sh", "/workspace/packages/c25-agent/pipeline/tests/test.sh", "/workspace/packages/c25-agent/integrations/tests/test.sh", "/workspace/packages/c25-agent/package.json", "/workspace/packages/c25-agent/api/public/index.html"]
+    },
+    {
+      "name": "Constellation25",
+      "file_count": 39,
+      "locations": [
+        "/workspace/public/manifest.json",
+        "/workspace/public/vercel.json",
+        "/workspace/c25_discovery_map.json",
+        "/workspace/packages/c25-agent/public/index.html",
+        "/workspace/packages/c25-agent/pipeline/public/index.html",
+        "/workspace/packages/c25-agent/pipeline/index.html",
+        "/workspace/packages/c25-agent/pipeline/package.json",
+        "/workspace/packages/c25-agent/pipeline/README.md",
+        "/workspace/packages/c25-agent/integrations/public/index.html",
+        "/workspace/packages/c25-agent/integrations/index.html",
+        "/workspace/packages/c25-agent/integrations/package.json",
+        "/workspace/packages/c25-agent/integrations/README.md",
+        "/workspace/packages/c25-agent/index.html",
+        "/workspace/packages/c25-agent/package.json",
+        "/workspace/packages/c25-agent/api/public/index.html",
+        "/workspace/packages/c25-agent/api/index.html",
+        "/workspace/packages/c25-agent/api/package.json",
+        "/workspace/packages/c25-agent/api/README.md",
+        "/workspace/packages/c25-agent/README.md",
+        "/workspace/packages/constellation25/package.json",
+        "/workspace/packages/constellation25/README.md",
+        "/workspace/packages/constellation25/orchestrator.js",
+        "/workspace/packages/faceprintpay/pathos-ai/public/index.html",
+        "/workspace/packages/faceprintpay/pathos-ai/index.html",
+        "/workspace/packages/faceprintpay/pathos-ai/README.md",
+        "/workspace/packages/faceprintpay/sovereign-genesis/public/index.html",
+        "/workspace/packages/faceprintpay/sovereign-genesis/index.html",
+        "/workspace/packages/faceprintpay/sovereign-genesis/README.md",
+        "/workspace/packages/faceprintpay/versed-ai/public/manifest.json",
+        "/workspace/packages/faceprintpay/versed-ai/public/index.html",
+        "/workspace/packages/faceprintpay/versed-ai/public/vercel.json",
+        "/workspace/packages/faceprintpay/versed-ai/index.html",
+        "/workspace/packages/faceprintpay/versed-ai/README.md",
+        "/workspace/c25_discover.sh",
+        "/workspace/c25_discovery.log",
+        "/workspace/C25_COMPLETE_BUILD_MANIFEST.md",
+        "/workspace/package.json",
+        "/workspace/vercel.json",
+        "/workspace/README.md"
+      ],
+      "entry_points": ["/workspace/vercel.json", "/workspace/package.json", "/workspace/packages/c25-agent/vercel.json", "/workspace/packages/c25-agent/package.json", "/workspace/packages/c25-agent/Dockerfile", "/workspace/packages/c25-agent/api/vercel.json", "/workspace/packages/c25-agent/api/package.json", "/workspace/packages/c25-agent/api/Dockerfile", "/workspace/packages/c25-agent/integrations/vercel.json", "/workspace/packages/c25-agent/integrations/package.json", "/workspace/packages/c25-agent/integrations/Dockerfile", "/workspace/packages/c25-agent/pipeline/vercel.json", "/workspace/packages/c25-agent/pipeline/package.json", "/workspace/packages/c25-agent/pipeline/Dockerfile", "/workspace/packages/constellation25/server.js", "/workspace/packages/constellation25/vercel.json", "/workspace/packages/constellation25/package.json", "/workspace/packages/constellation25/Dockerfile", "/workspace/packages/faceprintpay/pathos-ai/vercel.json", "/workspace/packages/faceprintpay/sovereign-genesis/vercel.json", "/workspace/packages/faceprintpay/sovereign-genesis/package.json", "/workspace/packages/faceprintpay/versed-ai/vercel.json", "/workspace/packages/faceprintpay/versed-ai/public/vercel.json", "/workspace/public/vercel.json"],
+      "orchestrators": ["/workspace/public/manifest.json", "/workspace/public/vercel.json", "/workspace/.c25_mesh.env", "/workspace/c25_discovery_map.json", "/workspace/packages/c25-agent/backend/middleware/auth.js", "/workspace/packages/c25-agent/backend/middleware/errorHandler.js", "/workspace/packages/c25-agent/backend/config/config.js", "/workspace/packages/c25-agent/backend/package.json", "/workspace/packages/c25-agent/backend/index.js", "/workspace/packages/c25-agent/backend/routes/authentication.js", "/workspace/packages/c25-agent/backend/routes/search.js", "/workspace/packages/c25-agent/backend/routes/weather.js", "/workspace/packages/c25-agent/backend/routes/upload.js", "/workspace/packages/c25-agent/backend/routes/payment.js", "/workspace/packages/c25-agent/backend/routes/graphql.js", "/workspace/packages/c25-agent/tests/test.sh", "/workspace/packages/c25-agent/pipeline/tests/test.sh", "/workspace/packages/c25-agent/integrations/tests/test.sh", "/workspace/packages/c25-agent/package.json", "/workspace/packages/c25-agent/api/public/index.html"]
+    },
+    {
+      "name": "constellation25",
+      "file_count": 39,
+      "locations": [
+        "/workspace/public/manifest.json",
+        "/workspace/public/vercel.json",
+        "/workspace/c25_discovery_map.json",
+        "/workspace/packages/c25-agent/public/index.html",
+        "/workspace/packages/c25-agent/pipeline/public/index.html",
+        "/workspace/packages/c25-agent/pipeline/index.html",
+        "/workspace/packages/c25-agent/pipeline/package.json",
+        "/workspace/packages/c25-agent/pipeline/README.md",
+        "/workspace/packages/c25-agent/integrations/public/index.html",
+        "/workspace/packages/c25-agent/integrations/index.html",
+        "/workspace/packages/c25-agent/integrations/package.json",
+        "/workspace/packages/c25-agent/integrations/README.md",
+        "/workspace/packages/c25-agent/index.html",
+        "/workspace/packages/c25-agent/package.json",
+        "/workspace/packages/c25-agent/api/public/index.html",
+        "/workspace/packages/c25-agent/api/index.html",
+        "/workspace/packages/c25-agent/api/package.json",
+        "/workspace/packages/c25-agent/api/README.md",
+        "/workspace/packages/c25-agent/README.md",
+        "/workspace/packages/constellation25/package.json",
+        "/workspace/packages/constellation25/README.md",
+        "/workspace/packages/constellation25/orchestrator.js",
+        "/workspace/packages/faceprintpay/pathos-ai/public/index.html",
+        "/workspace/packages/faceprintpay/pathos-ai/index.html",
+        "/workspace/packages/faceprintpay/pathos-ai/README.md",
+        "/workspace/packages/faceprintpay/sovereign-genesis/public/index.html",
+        "/workspace/packages/faceprintpay/sovereign-genesis/index.html",
+        "/workspace/packages/faceprintpay/sovereign-genesis/README.md",
+        "/workspace/packages/faceprintpay/versed-ai/public/manifest.json",
+        "/workspace/packages/faceprintpay/versed-ai/public/index.html",
+        "/workspace/packages/faceprintpay/versed-ai/public/vercel.json",
+        "/workspace/packages/faceprintpay/versed-ai/index.html",
+        "/workspace/packages/faceprintpay/versed-ai/README.md",
+        "/workspace/c25_discover.sh",
+        "/workspace/c25_discovery.log",
+        "/workspace/C25_COMPLETE_BUILD_MANIFEST.md",
+        "/workspace/package.json",
+        "/workspace/vercel.json",
+        "/workspace/README.md"
+      ],
+      "entry_points": ["/workspace/vercel.json", "/workspace/package.json", "/workspace/packages/c25-agent/vercel.json", "/workspace/packages/c25-agent/package.json", "/workspace/packages/c25-agent/Dockerfile", "/workspace/packages/c25-agent/api/vercel.json", "/workspace/packages/c25-agent/api/package.json", "/workspace/packages/c25-agent/api/Dockerfile", "/workspace/packages/c25-agent/integrations/vercel.json", "/workspace/packages/c25-agent/integrations/package.json", "/workspace/packages/c25-agent/integrations/Dockerfile", "/workspace/packages/c25-agent/pipeline/vercel.json", "/workspace/packages/c25-agent/pipeline/package.json", "/workspace/packages/c25-agent/pipeline/Dockerfile", "/workspace/packages/constellation25/server.js", "/workspace/packages/constellation25/vercel.json", "/workspace/packages/constellation25/package.json", "/workspace/packages/constellation25/Dockerfile", "/workspace/packages/faceprintpay/pathos-ai/vercel.json", "/workspace/packages/faceprintpay/sovereign-genesis/vercel.json", "/workspace/packages/faceprintpay/sovereign-genesis/package.json", "/workspace/packages/faceprintpay/versed-ai/vercel.json", "/workspace/packages/faceprintpay/versed-ai/public/vercel.json", "/workspace/public/vercel.json"],
+      "orchestrators": ["/workspace/public/manifest.json", "/workspace/public/vercel.json", "/workspace/.c25_mesh.env", "/workspace/c25_discovery_map.json", "/workspace/packages/c25-agent/backend/middleware/auth.js", "/workspace/packages/c25-agent/backend/middleware/errorHandler.js", "/workspace/packages/c25-agent/backend/config/config.js", "/workspace/packages/c25-agent/backend/package.json", "/workspace/packages/c25-agent/backend/index.js", "/workspace/packages/c25-agent/backend/routes/authentication.js", "/workspace/packages/c25-agent/backend/routes/search.js", "/workspace/packages/c25-agent/backend/routes/weather.js", "/workspace/packages/c25-agent/backend/routes/upload.js", "/workspace/packages/c25-agent/backend/routes/payment.js", "/workspace/packages/c25-agent/backend/routes/graphql.js", "/workspace/packages/c25-agent/tests/test.sh", "/workspace/packages/c25-agent/pipeline/tests/test.sh", "/workspace/packages/c25-agent/integrations/tests/test.sh", "/workspace/packages/c25-agent/package.json", "/workspace/packages/c25-agent/api/public/index.html"]
+    },
+    {
+      "name": "c25",
+      "file_count": 50,
+      "locations": [
+        "/workspace/public/vercel.json",
+        "/workspace/.c25_mesh.env",
+        "/workspace/c25_discovery_map.json",
+        "/workspace/packages/c25-agent/public/index.html",
+        "/workspace/packages/c25-agent/tests/test.sh",
+        "/workspace/packages/c25-agent/pipeline/public/index.html",
+        "/workspace/packages/c25-agent/pipeline/tests/test.sh",
+        "/workspace/packages/c25-agent/pipeline/index.html",
+        "/workspace/packages/c25-agent/pipeline/package.json",
+        "/workspace/packages/c25-agent/pipeline/README.md",
+        "/workspace/packages/c25-agent/integrations/public/index.html",
+        "/workspace/packages/c25-agent/integrations/tests/test.sh",
+        "/workspace/packages/c25-agent/integrations/index.html",
+        "/workspace/packages/c25-agent/integrations/package.json",
+        "/workspace/packages/c25-agent/integrations/README.md",
+        "/workspace/packages/c25-agent/index.html",
+        "/workspace/packages/c25-agent/package.json",
+        "/workspace/packages/c25-agent/api/public/index.html",
+        "/workspace/packages/c25-agent/api/tests/test.sh",
+        "/workspace/packages/c25-agent/api/index.html",
+        "/workspace/packages/c25-agent/api/package.json",
+        "/workspace/packages/c25-agent/api/README.md",
+        "/workspace/packages/c25-agent/README.md",
+        "/workspace/packages/constellation25/.c25_mesh.env",
+        "/workspace/packages/constellation25/Dockerfile",
+        "/workspace/packages/constellation25/C25_Empire.ipynb",
+        "/workspace/packages/constellation25/c25_sovereign_pack/BARD_SHA256_MANIFEST.txt",
+        "/workspace/packages/constellation25/c25_sovereign_pack/C25_SOVEREIGN_MASTER.md",
+        "/workspace/packages/constellation25/docker-start.sh",
+        "/workspace/packages/constellation25/init-path-mesh.sh",
+        "/workspace/packages/constellation25/README.md",
+        "/workspace/packages/constellation25/orchestrator.js",
+        "/workspace/packages/faceprintpay/sovereign-genesis/run.sh",
+        "/workspace/packages/faceprintpay/versed-ai/public/index.html",
+        "/workspace/packages/faceprintpay/versed-ai/src/8.8ec4dac799489daeb8ca.looka.js",
+        "/workspace/packages/faceprintpay/versed-ai/src/10.21a8d5e7aa09c77a24ca.looka.js",
+        "/workspace/packages/faceprintpay/versed-ai/AMetaversetoolbox",
+        "/workspace/packages/faceprintpay/versed-ai/logo_google.svg",
+        "/workspace/c25_discover.sh",
+        "/workspace/c25_discovery.log",
+        "/workspace/C25_25x25_MANIFEST.md",
+        "/workspace/C25_MESH_README.md",
+        "/workspace/projects/videocourts/README.md",
+        "/workspace/projects/ROUTING_ARCHITECTURE.md",
+        "/workspace/projects/that-framework/README.md",
+        "/workspace/projects/sovereign-gtp/README.md",
+        "/workspace/projects/arcai/README.md",
+        "/workspace/projects/legyc-airecords/README.md",
+        "/workspace/projects/C25_MASTER_REGISTRY.md",
+        "/workspace/projects/cygnus/README.md"
+      ],
+      "entry_points": ["/workspace/vercel.json", "/workspace/package.json", "/workspace/packages/c25-agent/vercel.json", "/workspace/packages/c25-agent/package.json", "/workspace/packages/c25-agent/Dockerfile", "/workspace/packages/c25-agent/api/vercel.json", "/workspace/packages/c25-agent/api/package.json", "/workspace/packages/c25-agent/api/Dockerfile", "/workspace/packages/c25-agent/integrations/vercel.json", "/workspace/packages/c25-agent/integrations/package.json", "/workspace/packages/c25-agent/integrations/Dockerfile", "/workspace/packages/c25-agent/pipeline/vercel.json", "/workspace/packages/c25-agent/pipeline/package.json", "/workspace/packages/c25-agent/pipeline/Dockerfile", "/workspace/packages/constellation25/server.js", "/workspace/packages/constellation25/vercel.json", "/workspace/packages/constellation25/package.json", "/workspace/packages/constellation25/Dockerfile", "/workspace/packages/faceprintpay/sovereign-genesis/vercel.json", "/workspace/packages/faceprintpay/sovereign-genesis/package.json", "/workspace/packages/faceprintpay/versed-ai/vercel.json", "/workspace/packages/faceprintpay/versed-ai/public/vercel.json", "/workspace/public/vercel.json"],
+      "orchestrators": ["/workspace/public/manifest.json", "/workspace/public/vercel.json", "/workspace/.c25_mesh.env", "/workspace/c25_discovery_map.json", "/workspace/packages/c25-agent/backend/middleware/auth.js", "/workspace/packages/c25-agent/backend/middleware/errorHandler.js", "/workspace/packages/c25-agent/backend/config/config.js", "/workspace/packages/c25-agent/backend/package.json", "/workspace/packages/c25-agent/backend/index.js", "/workspace/packages/c25-agent/backend/routes/authentication.js", "/workspace/packages/c25-agent/backend/routes/search.js", "/workspace/packages/c25-agent/backend/routes/weather.js", "/workspace/packages/c25-agent/backend/routes/upload.js", "/workspace/packages/c25-agent/backend/routes/payment.js", "/workspace/packages/c25-agent/backend/routes/graphql.js", "/workspace/packages/c25-agent/tests/test.sh", "/workspace/packages/c25-agent/pipeline/tests/test.sh", "/workspace/packages/c25-agent/integrations/tests/test.sh", "/workspace/packages/c25-agent/package.json", "/workspace/packages/c25-agent/api/public/index.html"]
+    },
+    {
+      "name": "AiMetaverse",
+      "file_count": 17,
+      "locations": [
+        "/workspace/c25_discovery_map.json",
+        "/workspace/packages/constellation25/README.md",
+        "/workspace/packages/faceprintpay/versed-ai/key_rotate.sh",
+        "/workspace/packages/faceprintpay/versed-ai/app/src/main/AndroidManifest.xml",
+        "/workspace/packages/faceprintpay/versed-ai/app/src/main/java/com/aimetaverse/MainActivity.kt",
+        "/workspace/packages/faceprintpay/versed-ai/app/src/main/res/values/strings.xml",
+        "/workspace/packages/faceprintpay/versed-ai/app/src/main/res/values/themes.xml",
+        "/workspace/c25_discover.sh",
+        "/workspace/c25_discovery.log",
+        "/workspace/C25_25x25_MANIFEST.md",
+        "/workspace/projects/ROUTING_ARCHITECTURE.md",
+        "/workspace/projects/C25_MASTER_REGISTRY.md",
+        "/workspace/projects/aimetaverse/README.md",
+        "/workspace/projects/constellation-25/README.md",
+        "/workspace/projects/planetary-agents/README.md",
+        "/workspace/projects/MASTER_BUILD_INDEX.md",
+        "/workspace/C25_COMPLETE_BUILD_MANIFEST.md"
+      ],
+      "entry_points": ["/workspace/vercel.json", "/workspace/package.json", "/workspace/packages/constellation25/server.js", "/workspace/packages/constellation25/vercel.json", "/workspace/packages/constellation25/package.json", "/workspace/packages/constellation25/Dockerfile", "/workspace/packages/faceprintpay/versed-ai/vercel.json"],
+      "orchestrators": ["/workspace/public/manifest.json", "/workspace/public/vercel.json", "/workspace/.c25_mesh.env", "/workspace/c25_discovery_map.json", "/workspace/packages/c25-agent/backend/middleware/auth.js", "/workspace/packages/c25-agent/backend/middleware/errorHandler.js", "/workspace/packages/c25-agent/backend/config/config.js", "/workspace/packages/c25-agent/backend/package.json", "/workspace/packages/c25-agent/backend/index.js", "/workspace/packages/c25-agent/backend/routes/authentication.js", "/workspace/packages/c25-agent/backend/routes/search.js", "/workspace/packages/c25-agent/backend/routes/weather.js", "/workspace/packages/c25-agent/backend/routes/upload.js", "/workspace/packages/c25-agent/backend/routes/payment.js", "/workspace/packages/c25-agent/backend/routes/graphql.js", "/workspace/packages/c25-agent/tests/test.sh", "/workspace/packages/c25-agent/pipeline/tests/test.sh", "/workspace/packages/c25-agent/integrations/tests/test.sh", "/workspace/packages/c25-agent/package.json", "/workspace/packages/c25-agent/api/public/index.html"]
+    },
+    {
+      "name": "aimetaverse",
+      "file_count": 17,
+      "locations": [
+        "/workspace/c25_discovery_map.json",
+        "/workspace/packages/constellation25/README.md",
+        "/workspace/packages/faceprintpay/versed-ai/key_rotate.sh",
+        "/workspace/packages/faceprintpay/versed-ai/app/src/main/AndroidManifest.xml",
+        "/workspace/packages/faceprintpay/versed-ai/app/src/main/java/com/aimetaverse/MainActivity.kt",
+        "/workspace/packages/faceprintpay/versed-ai/app/src/main/res/values/strings.xml",
+        "/workspace/packages/faceprintpay/versed-ai/app/src/main/res/values/themes.xml",
+        "/workspace/c25_discover.sh",
+        "/workspace/c25_discovery.log",
+        "/workspace/C25_25x25_MANIFEST.md",
+        "/workspace/projects/ROUTING_ARCHITECTURE.md",
+        "/workspace/projects/C25_MASTER_REGISTRY.md",
+        "/workspace/projects/aimetaverse/README.md",
+        "/workspace/projects/constellation-25/README.md",
+        "/workspace/projects/planetary-agents/README.md",
+        "/workspace/projects/MASTER_BUILD_INDEX.md",
+        "/workspace/C25_COMPLETE_BUILD_MANIFEST.md"
+      ],
+      "entry_points": ["/workspace/vercel.json", "/workspace/package.json", "/workspace/packages/constellation25/server.js", "/workspace/packages/constellation25/vercel.json", "/workspace/packages/constellation25/package.json", "/workspace/packages/constellation25/Dockerfile", "/workspace/packages/faceprintpay/versed-ai/vercel.json"],
+      "orchestrators": ["/workspace/public/manifest.json", "/workspace/public/vercel.json", "/workspace/.c25_mesh.env", "/workspace/c25_discovery_map.json", "/workspace/packages/c25-agent/backend/middleware/auth.js", "/workspace/packages/c25-agent/backend/middleware/errorHandler.js", "/workspace/packages/c25-agent/backend/config/config.js", "/workspace/packages/c25-agent/backend/package.json", "/workspace/packages/c25-agent/backend/index.js", "/workspace/packages/c25-agent/backend/routes/authentication.js", "/workspace/packages/c25-agent/backend/routes/search.js", "/workspace/packages/c25-agent/backend/routes/weather.js", "/workspace/packages/c25-agent/backend/routes/upload.js", "/workspace/packages/c25-agent/backend/routes/payment.js", "/workspace/packages/c25-agent/backend/routes/graphql.js", "/workspace/packages/c25-agent/tests/test.sh", "/workspace/packages/c25-agent/pipeline/tests/test.sh", "/workspace/packages/c25-agent/integrations/tests/test.sh", "/workspace/packages/c25-agent/package.json", "/workspace/packages/c25-agent/api/public/index.html"]
+    },
+    {
+      "name": "metaverse",
+      "file_count": 47,
+      "locations": [
+        "/workspace/c25_discovery_map.json",
+        "/workspace/packages/constellation25/README.md",
+        "/workspace/packages/faceprintpay/pathos-ai/-PaTHos- (Cygel White's conflicted copy).html",
+        "/workspace/packages/faceprintpay/versed-ai/ai metaverse docs and code.rtfd.zip",
+        "/workspace/packages/faceprintpay/versed-ai/tasks/callisto_stability.py",
+        "/workspace/packages/faceprintpay/versed-ai/tasks/uranus_innovation.py",
+        "/workspace/packages/faceprintpay/versed-ai/tasks/chronos_scheduler.py",
+        "/workspace/packages/faceprintpay/versed-ai/tasks/haumea_design.py",
+        "/workspace/packages/faceprintpay/versed-ai/tasks/titan_expansion.py",
+        "/workspace/packages/faceprintpay/versed-ai/tasks/ganymede_storage.py",
+        "/workspace/packages/faceprintpay/versed-ai/tasks/saturn_security.py",
+        "/workspace/packages/faceprintpay/versed-ai/tasks/moon_ops.py",
+        "/workspace/packages/faceprintpay/versed-ai/tasks/mercury_comms.py",
+        "/workspace/packages/faceprintpay/versed-ai/tasks/io_infra.py",
+        "/workspace/packages/faceprintpay/versed-ai/tasks/europa_research.py",
+        "/workspace/packages/faceprintpay/versed-ai/tasks/earth_knowledge.py",
+        "/workspace/packages/faceprintpay/versed-ai/tasks/ceres_data.py",
+        "/workspace/packages/faceprintpay/versed-ai/tasks/venus_marketing.py",
+        "/workspace/packages/faceprintpay/versed-ai/tasks/jupiter_strategy.py",
+        "/workspace/packages/faceprintpay/versed-ai/tasks/cicd_runner.py",
+        "/workspace/packages/faceprintpay/versed-ai/tasks/sun_core.py",
+        "/workspace/packages/faceprintpay/versed-ai/tasks/neptune_finance.py",
+        "/workspace/packages/faceprintpay/versed-ai/tasks/multitasker.py",
+        "/workspace/packages/faceprintpay/versed-ai/tasks/eris_governance.py",
+        "/workspace/packages/faceprintpay/versed-ai/tasks/alfai_legal.py",
+        "/workspace/packages/faceprintpay/versed-ai/tasks/keyholder.py",
+        "/workspace/packages/faceprintpay/versed-ai/tasks/makemake_creative.py",
+        "/workspace/packages/faceprintpay/versed-ai/tasks/recon_scraper.py",
+        "/workspace/packages/faceprintpay/versed-ai/tasks/pluto_risk.py",
+        "/workspace/packages/faceprintpay/versed-ai/tasks/_common.py",
+        "/workspace/packages/faceprintpay/versed-ai/tasks/mars_sim.py",
+        "/workspace/packages/faceprintpay/versed-ai/key_rotate.sh",
+        "/workspace/packages/faceprintpay/versed-ai/agents/export_agentlogs.py",
+        "/workspace/packages/faceprintpay/versed-ai/app/src/main/AndroidManifest.xml",
+        "/workspace/packages/faceprintpay/versed-ai/app/src/main/java/com/aimetaverse/MainActivity.kt",
+        "/workspace/packages/faceprintpay/versed-ai/app/src/main/res/values/strings.xml",
+        "/workspace/packages/faceprintpay/versed-ai/app/src/main/res/values/themes.xml",
+        "/workspace/c25_discover.sh",
+        "/workspace/c25_discovery.log",
+        "/workspace/C25_25x25_MANIFEST.md",
+        "/workspace/projects/ROUTING_ARCHITECTURE.md",
+        "/workspace/projects/C25_MASTER_REGISTRY.md",
+        "/workspace/projects/aimetaverse/README.md",
+        "/workspace/projects/constellation-25/README.md",
+        "/workspace/projects/planetary-agents/README.md",
+        "/workspace/projects/MASTER_BUILD_INDEX.md",
+        "/workspace/C25_COMPLETE_BUILD_MANIFEST.md"
+      ],
+      "entry_points": ["/workspace/vercel.json", "/workspace/package.json", "/workspace/packages/constellation25/server.js", "/workspace/packages/constellation25/vercel.json", "/workspace/packages/constellation25/package.json", "/workspace/packages/constellation25/Dockerfile"],
+      "orchestrators": ["/workspace/public/manifest.json", "/workspace/public/vercel.json", "/workspace/.c25_mesh.env", "/workspace/c25_discovery_map.json", "/workspace/packages/c25-agent/backend/middleware/auth.js", "/workspace/packages/c25-agent/backend/middleware/errorHandler.js", "/workspace/packages/c25-agent/backend/config/config.js", "/workspace/packages/c25-agent/backend/package.json", "/workspace/packages/c25-agent/backend/index.js", "/workspace/packages/c25-agent/backend/routes/authentication.js", "/workspace/packages/c25-agent/backend/routes/search.js", "/workspace/packages/c25-agent/backend/routes/weather.js", "/workspace/packages/c25-agent/backend/routes/upload.js", "/workspace/packages/c25-agent/backend/routes/payment.js", "/workspace/packages/c25-agent/backend/routes/graphql.js", "/workspace/packages/c25-agent/tests/test.sh", "/workspace/packages/c25-agent/pipeline/tests/test.sh", "/workspace/packages/c25-agent/integrations/tests/test.sh", "/workspace/packages/c25-agent/package.json", "/workspace/packages/c25-agent/api/public/index.html"]
+    },
+    {
+      "name": "AiKre8tive",
+      "file_count": 11,
+      "locations": [
+        "/workspace/packages/faceprintpay/sovereign-genesis/public/index.html",
+        "/workspace/packages/faceprintpay/sovereign-genesis/src/App.jsx",
+        "/workspace/packages/faceprintpay/sovereign-genesis/run.sh",
+        "/workspace/packages/faceprintpay/sovereign-genesis/tests/test.sh",
+        "/workspace/packages/faceprintpay/sovereign-genesis/vercel_repos.txt",
+        "/workspace/packages/faceprintpay/sovereign-genesis/index.html",
+        "/workspace/packages/faceprintpay/sovereign-genesis/package.json",
+        "/workspace/packages/faceprintpay/sovereign-genesis/vercel.json",
+        "/workspace/packages/faceprintpay/sovereign-genesis/README.md",
+        "/workspace/c25_discover.sh",
+        "/workspace/c25_discovery.log"
+      ],
+      "entry_points": ["/workspace/vercel.json", "/workspace/package.json", "/workspace/packages/faceprintpay/sovereign-genesis/vercel.json", "/workspace/packages/faceprintpay/sovereign-genesis/package.json"],
+      "orchestrators": ["/workspace/public/manifest.json", "/workspace/public/vercel.json", "/workspace/.c25_mesh.env", "/workspace/c25_discovery_map.json", "/workspace/packages/c25-agent/backend/middleware/auth.js", "/workspace/packages/c25-agent/backend/middleware/errorHandler.js", "/workspace/packages/c25-agent/backend/config/config.js", "/workspace/packages/c25-agent/backend/package.json", "/workspace/packages/c25-agent/backend/index.js", "/workspace/packages/c25-agent/backend/routes/authentication.js", "/workspace/packages/c25-agent/backend/routes/search.js", "/workspace/packages/c25-agent/backend/routes/weather.js", "/workspace/packages/c25-agent/backend/routes/upload.js", "/workspace/packages/c25-agent/backend/routes/payment.js", "/workspace/packages/c25-agent/backend/routes/graphql.js", "/workspace/packages/c25-agent/tests/test.sh", "/workspace/packages/c25-agent/pipeline/tests/test.sh", "/workspace/packages/c25-agent/integrations/tests/test.sh", "/workspace/packages/c25-agent/package.json", "/workspace/packages/c25-agent/api/public/index.html"]
+    },
+    {
+      "name": "aikre8tive",
+      "file_count": 12,
+      "locations": [
+        "/workspace/c25_discovery_map.json",
+        "/workspace/packages/faceprintpay/sovereign-genesis/public/index.html",
+        "/workspace/packages/faceprintpay/sovereign-genesis/src/App.jsx",
+        "/workspace/packages/faceprintpay/sovereign-genesis/run.sh",
+        "/workspace/packages/faceprintpay/sovereign-genesis/tests/test.sh",
+        "/workspace/packages/faceprintpay/sovereign-genesis/vercel_repos.txt",
+        "/workspace/packages/faceprintpay/sovereign-genesis/index.html",
+        "/workspace/packages/faceprintpay/sovereign-genesis/package.json",
+        "/workspace/packages/faceprintpay/sovereign-genesis/vercel.json",
+        "/workspace/packages/faceprintpay/sovereign-genesis/README.md",
+        "/workspace/c25_discover.sh",
+        "/workspace/c25_discovery.log"
+      ],
+      "entry_points": ["/workspace/vercel.json", "/workspace/package.json", "/workspace/packages/faceprintpay/sovereign-genesis/vercel.json", "/workspace/packages/faceprintpay/sovereign-genesis/package.json"],
+      "orchestrators": ["/workspace/public/manifest.json", "/workspace/public/vercel.json", "/workspace/.c25_mesh.env", "/workspace/c25_discovery_map.json", "/workspace/packages/c25-agent/backend/middleware/auth.js", "/workspace/packages/c25-agent/backend/middleware/errorHandler.js", "/workspace/packages/c25-agent/backend/config/config.js", "/workspace/packages/c25-agent/backend/package.json", "/workspace/packages/c25-agent/backend/index.js", "/workspace/packages/c25-agent/backend/routes/authentication.js", "/workspace/packages/c25-agent/backend/routes/search.js", "/workspace/packages/c25-agent/backend/routes/weather.js", "/workspace/packages/c25-agent/backend/routes/upload.js", "/workspace/packages/c25-agent/backend/routes/payment.js", "/workspace/packages/c25-agent/backend/routes/graphql.js", "/workspace/packages/c25-agent/tests/test.sh", "/workspace/packages/c25-agent/pipeline/tests/test.sh", "/workspace/packages/c25-agent/integrations/tests/test.sh", "/workspace/packages/c25-agent/package.json", "/workspace/packages/c25-agent/api/public/index.html"]
+    },
+    {
+      "name": "kre8tive",
+      "file_count": 30,
+      "locations": [
+        "/workspace/c25_discovery_map.json",
+        "/workspace/packages/constellation25/C25_Empire.ipynb",
+        "/workspace/packages/constellation25/c25_sovereign_pack/C25_SOVEREIGN_MASTER.md",
+        "/workspace/packages/constellation25/README.md",
+        "/workspace/packages/faceprintpay/pathos-ai/-PaTHos- (Cygel White's conflicted copy).html",
+        "/workspace/packages/faceprintpay/sovereign-genesis/public/index.html",
+        "/workspace/packages/faceprintpay/sovereign-genesis/src/App.jsx",
+        "/workspace/packages/faceprintpay/sovereign-genesis/run.sh",
+        "/workspace/packages/faceprintpay/sovereign-genesis/tests/test.sh",
+        "/workspace/packages/faceprintpay/sovereign-genesis/vercel_repos.txt",
+        "/workspace/packages/faceprintpay/sovereign-genesis/index.html",
+        "/workspace/packages/faceprintpay/sovereign-genesis/package.json",
+        "/workspace/packages/faceprintpay/sovereign-genesis/vercel.json",
+        "/workspace/packages/faceprintpay/sovereign-genesis/README.md",
+        "/workspace/c25_discover.sh",
+        "/workspace/c25_discovery.log",
+        "/workspace/C25_25x25_MANIFEST.md",
+        "/workspace/projects/videocourts/README.md",
+        "/workspace/projects/ROUTING_ARCHITECTURE.md",
+        "/workspace/projects/arcai/README.md",
+        "/workspace/projects/C25_MASTER_REGISTRY.md",
+        "/workspace/projects/mybuyo/README.md",
+        "/workspace/projects/total-recall/README.md",
+        "/workspace/projects/aimetaverse/README.md",
+        "/workspace/projects/pathos/README.md",
+        "/workspace/projects/cygnus-pipeline/README.md",
+        "/workspace/projects/constellation-25/README.md",
+        "/workspace/projects/planetary-agents/README.md",
+        "/workspace/projects/MASTER_BUILD_INDEX.md",
+        "/workspace/C25_COMPLETE_BUILD_MANIFEST.md"
+      ],
+      "entry_points": ["/workspace/vercel.json", "/workspace/package.json", "/workspace/packages/constellation25/server.js", "/workspace/packages/constellation25/vercel.json", "/workspace/packages/constellation25/package.json", "/workspace/packages/constellation25/Dockerfile"],
+      "orchestrators": ["/workspace/public/manifest.json", "/workspace/public/vercel.json", "/workspace/.c25_mesh.env", "/workspace/c25_discovery_map.json", "/workspace/packages/c25-agent/backend/middleware/auth.js", "/workspace/packages/c25-agent/backend/middleware/errorHandler.js", "/workspace/packages/c25-agent/backend/config/config.js", "/workspace/packages/c25-agent/backend/package.json", "/workspace/packages/c25-agent/backend/index.js", "/workspace/packages/c25-agent/backend/routes/authentication.js", "/workspace/packages/c25-agent/backend/routes/search.js", "/workspace/packages/c25-agent/backend/routes/weather.js", "/workspace/packages/c25-agent/backend/routes/upload.js", "/workspace/packages/c25-agent/backend/routes/payment.js", "/workspace/packages/c25-agent/backend/routes/graphql.js", "/workspace/packages/c25-agent/tests/test.sh", "/workspace/packages/c25-agent/pipeline/tests/test.sh", "/workspace/packages/c25-agent/integrations/tests/test.sh", "/workspace/packages/c25-agent/package.json", "/workspace/packages/c25-agent/api/public/index.html"]
+    },
+    {
+      "name": "sovereign",
+      "file_count": 50,
+      "locations": [
+        "/workspace/public/manifest.json",
+        "/workspace/.c25_mesh.env",
+        "/workspace/c25_discovery_map.json",
+        "/workspace/packages/c25-agent/pipeline/index.html",
+        "/workspace/packages/c25-agent/pipeline/README.md",
+        "/workspace/packages/c25-agent/integrations/index.html",
+        "/workspace/packages/c25-agent/integrations/README.md",
+        "/workspace/packages/c25-agent/index.html",
+        "/workspace/packages/c25-agent/api/index.html",
+        "/workspace/packages/c25-agent/api/README.md",
+        "/workspace/packages/c25-agent/README.md",
+        "/workspace/packages/constellation25/server.js",
+        "/workspace/packages/constellation25/.c25_mesh.env",
+        "/workspace/packages/constellation25/C25_Empire.ipynb",
+        "/workspace/packages/constellation25/add_agents.js",
+        "/workspace/packages/constellation25/c25_sovereign_pack/C25_SOVEREIGN_MASTER.md",
+        "/workspace/packages/constellation25/init-path-mesh.sh",
+        "/workspace/packages/constellation25/README.md",
+        "/workspace/packages/constellation25/orchestrator.js",
+        "/workspace/packages/faceprintpay/pathos-ai/index.html",
+        "/workspace/packages/faceprintpay/pathos-ai/README.md",
+        "/workspace/packages/faceprintpay/sovereign-genesis/public/index.html",
+        "/workspace/packages/faceprintpay/sovereign-genesis/src/App.jsx",
+        "/workspace/packages/faceprintpay/sovereign-genesis/run.sh",
+        "/workspace/packages/faceprintpay/sovereign-genesis/tests/test.sh",
+        "/workspace/packages/faceprintpay/sovereign-genesis/vercel_repos.txt",
+        "/workspace/packages/faceprintpay/sovereign-genesis/index.html",
+        "/workspace/packages/faceprintpay/sovereign-genesis/package.json",
+        "/workspace/packages/faceprintpay/sovereign-genesis/vercel.json",
+        "/workspace/packages/faceprintpay/sovereign-genesis/README.md",
+        "/workspace/packages/faceprintpay/versed-ai/public/manifest.json",
+        "/workspace/packages/faceprintpay/versed-ai/public/index.html",
+        "/workspace/packages/faceprintpay/versed-ai/key_rotate.sh",
+        "/workspace/packages/faceprintpay/versed-ai/index.html",
+        "/workspace/packages/faceprintpay/versed-ai/README.md",
+        "/workspace/c25_discover.sh",
+        "/workspace/c25_discovery.log",
+        "/workspace/C25_25x25_MANIFEST.md",
+        "/workspace/C25_MESH_README.md",
+        "/workspace/projects/videocourts/README.md",
+        "/workspace/projects/ROUTING_ARCHITECTURE.md",
+        "/workspace/projects/that-framework/README.md",
+        "/workspace/projects/sovereign-gtp/README.md",
+        "/workspace/projects/arcai/README.md",
+        "/workspace/projects/legyc-airecords/README.md",
+        "/workspace/projects/C25_MASTER_REGISTRY.md",
+        "/workspace/projects/cygnus/README.md",
+        "/workspace/projects/mybuyo/README.md",
+        "/workspace/projects/parosol-insurance/README.md",
+        "/workspace/projects/total-recall/README.md"
+      ],
+      "entry_points": ["/workspace/vercel.json", "/workspace/package.json", "/workspace/packages/c25-agent/vercel.json", "/workspace/packages/c25-agent/package.json", "/workspace/packages/c25-agent/Dockerfile", "/workspace/packages/c25-agent/api/vercel.json", "/workspace/packages/c25-agent/api/package.json", "/workspace/packages/c25-agent/api/Dockerfile", "/workspace/packages/c25-agent/integrations/vercel.json", "/workspace/packages/c25-agent/integrations/package.json", "/workspace/packages/c25-agent/integrations/Dockerfile", "/workspace/packages/c25-agent/pipeline/vercel.json", "/workspace/packages/c25-agent/pipeline/package.json", "/workspace/packages/c25-agent/pipeline/Dockerfile", "/workspace/packages/constellation25/server.js", "/workspace/packages/constellation25/vercel.json", "/workspace/packages/constellation25/package.json", "/workspace/packages/constellation25/Dockerfile", "/workspace/packages/faceprintpay/pathos-ai/vercel.json", "/workspace/packages/faceprintpay/sovereign-genesis/vercel.json", "/workspace/packages/faceprintpay/sovereign-genesis/package.json", "/workspace/packages/faceprintpay/versed-ai/vercel.json", "/workspace/packages/faceprintpay/versed-ai/public/vercel.json", "/workspace/public/vercel.json"],
+      "orchestrators": ["/workspace/public/manifest.json", "/workspace/public/vercel.json", "/workspace/.c25_mesh.env", "/workspace/c25_discovery_map.json", "/workspace/packages/c25-agent/backend/middleware/auth.js", "/workspace/packages/c25-agent/backend/middleware/errorHandler.js", "/workspace/packages/c25-agent/backend/config/config.js", "/workspace/packages/c25-agent/backend/package.json", "/workspace/packages/c25-agent/backend/index.js", "/workspace/packages/c25-agent/backend/routes/authentication.js", "/workspace/packages/c25-agent/backend/routes/search.js", "/workspace/packages/c25-agent/backend/routes/weather.js", "/workspace/packages/c25-agent/backend/routes/upload.js", "/workspace/packages/c25-agent/backend/routes/payment.js", "/workspace/packages/c25-agent/backend/routes/graphql.js", "/workspace/packages/c25-agent/tests/test.sh", "/workspace/packages/c25-agent/pipeline/tests/test.sh", "/workspace/packages/c25-agent/integrations/tests/test.sh", "/workspace/packages/c25-agent/package.json", "/workspace/packages/c25-agent/api/public/index.html"]
+    },
+    {
+      "name": "sovereign-genesis",
+      "file_count": 6,
+      "locations": [
+        "/workspace/c25_discovery_map.json",
+        "/workspace/packages/faceprintpay/sovereign-genesis/package.json",
+        "/workspace/packages/faceprintpay/sovereign-genesis/vercel.json",
+        "/workspace/c25_discover.sh",
+        "/workspace/c25_discovery.log",
+        "/workspace/README.md"
+      ],
+      "entry_points": ["/workspace/vercel.json", "/workspace/package.json", "/workspace/packages/faceprintpay/sovereign-genesis/vercel.json", "/workspace/packages/faceprintpay/sovereign-genesis/package.json"],
+      "orchestrators": ["/workspace/public/manifest.json", "/workspace/public/vercel.json", "/workspace/.c25_mesh.env", "/workspace/c25_discovery_map.json", "/workspace/packages/c25-agent/backend/middleware/auth.js", "/workspace/packages/c25-agent/backend/middleware/errorHandler.js", "/workspace/packages/c25-agent/backend/config/config.js", "/workspace/packages/c25-agent/backend/package.json", "/workspace/packages/c25-agent/backend/index.js", "/workspace/packages/c25-agent/backend/routes/authentication.js", "/workspace/packages/c25-agent/backend/routes/search.js", "/workspace/packages/c25-agent/backend/routes/weather.js", "/workspace/packages/c25-agent/backend/routes/upload.js", "/workspace/packages/c25-agent/backend/routes/payment.js", "/workspace/packages/c25-agent/backend/routes/graphql.js", "/workspace/packages/c25-agent/tests/test.sh", "/workspace/packages/c25-agent/pipeline/tests/test.sh", "/workspace/packages/c25-agent/integrations/tests/test.sh", "/workspace/packages/c25-agent/package.json", "/workspace/packages/c25-agent/api/public/index.html"]
+    },
+    {
+      "name": "sovereign-kre8tive",
+      "file_count": 2,
+      "locations": [
+        "/workspace/c25_discover.sh",
+        "/workspace/c25_discovery.log"
+      ],
+      "entry_points": ["/workspace/vercel.json", "/workspace/package.json"],
+      "orchestrators": ["/workspace/public/manifest.json", "/workspace/public/vercel.json", "/workspace/.c25_mesh.env", "/workspace/c25_discovery_map.json", "/workspace/packages/c25-agent/backend/middleware/auth.js", "/workspace/packages/c25-agent/backend/middleware/errorHandler.js", "/workspace/packages/c25-agent/backend/config/config.js", "/workspace/packages/c25-agent/backend/package.json", "/workspace/packages/c25-agent/backend/index.js", "/workspace/packages/c25-agent/backend/routes/authentication.js", "/workspace/packages/c25-agent/backend/routes/search.js", "/workspace/packages/c25-agent/backend/routes/weather.js", "/workspace/packages/c25-agent/backend/routes/upload.js", "/workspace/packages/c25-agent/backend/routes/payment.js", "/workspace/packages/c25-agent/backend/routes/graphql.js", "/workspace/packages/c25-agent/tests/test.sh", "/workspace/packages/c25-agent/pipeline/tests/test.sh", "/workspace/packages/c25-agent/integrations/tests/test.sh", "/workspace/packages/c25-agent/package.json", "/workspace/packages/c25-agent/api/public/index.html"]
+    },
+    {
+      "name": "planetary-agents",
+      "file_count": 6,
+      "locations": [
+        "/workspace/c25_discovery_map.json",
+        "/workspace/c25_discover.sh",
+        "/workspace/c25_discovery.log",
+        "/workspace/projects/ROUTING_ARCHITECTURE.md",
+        "/workspace/projects/planetary-agents/README.md",
+        "/workspace/projects/MASTER_BUILD_INDEX.md"
+      ],
+      "entry_points": ["/workspace/vercel.json", "/workspace/package.json"],
+      "orchestrators": ["/workspace/public/manifest.json", "/workspace/public/vercel.json", "/workspace/.c25_mesh.env", "/workspace/c25_discovery_map.json", "/workspace/packages/c25-agent/backend/middleware/auth.js", "/workspace/packages/c25-agent/backend/middleware/errorHandler.js", "/workspace/packages/c25-agent/backend/config/config.js", "/workspace/packages/c25-agent/backend/package.json", "/workspace/packages/c25-agent/backend/index.js", "/workspace/packages/c25-agent/backend/routes/authentication.js", "/workspace/packages/c25-agent/backend/routes/search.js", "/workspace/packages/c25-agent/backend/routes/weather.js", "/workspace/packages/c25-agent/backend/routes/upload.js", "/workspace/packages/c25-agent/backend/routes/payment.js", "/workspace/packages/c25-agent/backend/routes/graphql.js", "/workspace/packages/c25-agent/tests/test.sh", "/workspace/packages/c25-agent/pipeline/tests/test.sh", "/workspace/packages/c25-agent/integrations/tests/test.sh", "/workspace/packages/c25-agent/package.json", "/workspace/packages/c25-agent/api/public/index.html"]
+    },
+    {
+      "name": "earth-agent",
+      "file_count": 2,
+      "locations": [
+        "/workspace/c25_discover.sh",
+        "/workspace/c25_discovery.log"
+      ],
+      "entry_points": ["/workspace/vercel.json", "/workspace/package.json"],
+      "orchestrators": ["/workspace/public/manifest.json", "/workspace/public/vercel.json", "/workspace/.c25_mesh.env", "/workspace/c25_discovery_map.json", "/workspace/packages/c25-agent/backend/middleware/auth.js", "/workspace/packages/c25-agent/backend/middleware/errorHandler.js", "/workspace/packages/c25-agent/backend/config/config.js", "/workspace/packages/c25-agent/backend/package.json", "/workspace/packages/c25-agent/backend/index.js", "/workspace/packages/c25-agent/backend/routes/authentication.js", "/workspace/packages/c25-agent/backend/routes/search.js", "/workspace/packages/c25-agent/backend/routes/weather.js", "/workspace/packages/c25-agent/backend/routes/upload.js", "/workspace/packages/c25-agent/backend/routes/payment.js", "/workspace/packages/c25-agent/backend/routes/graphql.js", "/workspace/packages/c25-agent/tests/test.sh", "/workspace/packages/c25-agent/pipeline/tests/test.sh", "/workspace/packages/c25-agent/integrations/tests/test.sh", "/workspace/packages/c25-agent/package.json", "/workspace/packages/c25-agent/api/public/index.html"]
+    },
+    {
+      "name": "moon-agent",
+      "file_count": 2,
+      "locations": [
+        "/workspace/c25_discover.sh",
+        "/workspace/c25_discovery.log"
+      ],
+      "entry_points": ["/workspace/vercel.json", "/workspace/package.json"],
+      "orchestrators": ["/workspace/public/manifest.json", "/workspace/public/vercel.json", "/workspace/.c25_mesh.env", "/workspace/c25_discovery_map.json", "/workspace/packages/c25-agent/backend/middleware/auth.js", "/workspace/packages/c25-agent/backend/middleware/errorHandler.js", "/workspace/packages/c25-agent/backend/config/config.js", "/workspace/packages/c25-agent/backend/package.json", "/workspace/packages/c25-agent/backend/index.js", "/workspace/packages/c25-agent/backend/routes/authentication.js", "/workspace/packages/c25-agent/backend/routes/search.js", "/workspace/packages/c25-agent/backend/routes/weather.js", "/workspace/packages/c25-agent/backend/routes/upload.js", "/workspace/packages/c25-agent/backend/routes/payment.js", "/workspace/packages/c25-agent/backend/routes/graphql.js", "/workspace/packages/c25-agent/tests/test.sh", "/workspace/packages/c25-agent/pipeline/tests/test.sh", "/workspace/packages/c25-agent/integrations/tests/test.sh", "/workspace/packages/c25-agent/package.json", "/workspace/packages/c25-agent/api/public/index.html"]
+    },
+    {
+      "name": "mars-agent",
+      "file_count": 2,
+      "locations": [
+        "/workspace/c25_discover.sh",
+        "/workspace/c25_discovery.log"
+      ],
+      "entry_points": ["/workspace/vercel.json", "/workspace/package.json"],
+      "orchestrators": ["/workspace/public/manifest.json", "/workspace/public/vercel.json", "/workspace/.c25_mesh.env", "/workspace/c25_discovery_map.json", "/workspace/packages/c25-agent/backend/middleware/auth.js", "/workspace/packages/c25-agent/backend/middleware/errorHandler.js", "/workspace/packages/c25-agent/backend/config/config.js", "/workspace/packages/c25-agent/backend/package.json", "/workspace/packages/c25-agent/backend/index.js", "/workspace/packages/c25-agent/backend/routes/authentication.js", "/workspace/packages/c25-agent/backend/routes/search.js", "/workspace/packages/c25-agent/backend/routes/weather.js", "/workspace/packages/c25-agent/backend/routes/upload.js", "/workspace/packages/c25-agent/backend/routes/payment.js", "/workspace/packages/c25-agent/backend/routes/graphql.js", "/workspace/packages/c25-agent/tests/test.sh", "/workspace/packages/c25-agent/pipeline/tests/test.sh", "/workspace/packages/c25-agent/integrations/tests/test.sh", "/workspace/packages/c25-agent/package.json", "/workspace/packages/c25-agent/api/public/index.html"]
+    },
+    {
+      "name": "jupiter-agent",
+      "file_count": 2,
+      "locations": [
+        "/workspace/c25_discover.sh",
+        "/workspace/c25_discovery.log"
+      ],
+      "entry_points": ["/workspace/vercel.json", "/workspace/package.json"],
+      "orchestrators": ["/workspace/public/manifest.json", "/workspace/public/vercel.json", "/workspace/.c25_mesh.env", "/workspace/c25_discovery_map.json", "/workspace/packages/c25-agent/backend/middleware/auth.js", "/workspace/packages/c25-agent/backend/middleware/errorHandler.js", "/workspace/packages/c25-agent/backend/config/config.js", "/workspace/packages/c25-agent/backend/package.json", "/workspace/packages/c25-agent/backend/index.js", "/workspace/packages/c25-agent/backend/routes/authentication.js", "/workspace/packages/c25-agent/backend/routes/search.js", "/workspace/packages/c25-agent/backend/routes/weather.js", "/workspace/packages/c25-agent/backend/routes/upload.js", "/workspace/packages/c25-agent/backend/routes/payment.js", "/workspace/packages/c25-agent/backend/routes/graphql.js", "/workspace/packages/c25-agent/tests/test.sh", "/workspace/packages/c25-agent/pipeline/tests/test.sh", "/workspace/packages/c25-agent/integrations/tests/test.sh", "/workspace/packages/c25-agent/package.json", "/workspace/packages/c25-agent/api/public/index.html"]
+    },
+    {
+      "name": "saturn-agent",
+      "file_count": 2,
+      "locations": [
+        "/workspace/c25_discover.sh",
+        "/workspace/c25_discovery.log"
+      ],
+      "entry_points": ["/workspace/vercel.json", "/workspace/package.json"],
+      "orchestrators": ["/workspace/public/manifest.json", "/workspace/public/vercel.json", "/workspace/.c25_mesh.env", "/workspace/c25_discovery_map.json", "/workspace/packages/c25-agent/backend/middleware/auth.js", "/workspace/packages/c25-agent/backend/middleware/errorHandler.js", "/workspace/packages/c25-agent/backend/config/config.js", "/workspace/packages/c25-agent/backend/package.json", "/workspace/packages/c25-agent/backend/index.js", "/workspace/packages/c25-agent/backend/routes/authentication.js", "/workspace/packages/c25-agent/backend/routes/search.js", "/workspace/packages/c25-agent/backend/routes/weather.js", "/workspace/packages/c25-agent/backend/routes/upload.js", "/workspace/packages/c25-agent/backend/routes/payment.js", "/workspace/packages/c25-agent/backend/routes/graphql.js", "/workspace/packages/c25-agent/tests/test.sh", "/workspace/packages/c25-agent/pipeline/tests/test.sh", "/workspace/packages/c25-agent/integrations/tests/test.sh", "/workspace/packages/c25-agent/package.json", "/workspace/packages/c25-agent/api/public/index.html"]
+    },
+    {
+      "name": "uranus-agent",
+      "file_count": 2,
+      "locations": [
+        "/workspace/c25_discover.sh",
+        "/workspace/c25_discovery.log"
+      ],
+      "entry_points": ["/workspace/vercel.json", "/workspace/package.json"],
+      "orchestrators": ["/workspace/public/manifest.json", "/workspace/public/vercel.json", "/workspace/.c25_mesh.env", "/workspace/c25_discovery_map.json", "/workspace/packages/c25-agent/backend/middleware/auth.js", "/workspace/packages/c25-agent/backend/middleware/errorHandler.js", "/workspace/packages/c25-agent/backend/config/config.js", "/workspace/packages/c25-agent/backend/package.json", "/workspace/packages/c25-agent/backend/index.js", "/workspace/packages/c25-agent/backend/routes/authentication.js", "/workspace/packages/c25-agent/backend/routes/search.js", "/workspace/packages/c25-agent/backend/routes/weather.js", "/workspace/packages/c25-agent/backend/routes/upload.js", "/workspace/packages/c25-agent/backend/routes/payment.js", "/workspace/packages/c25-agent/backend/routes/graphql.js", "/workspace/packages/c25-agent/tests/test.sh", "/workspace/packages/c25-agent/pipeline/tests/test.sh", "/workspace/packages/c25-agent/integrations/tests/test.sh", "/workspace/packages/c25-agent/package.json", "/workspace/packages/c25-agent/api/public/index.html"]
+    },
+    {
+      "name": "neptune-agent",
+      "file_count": 2,
+      "locations": [
+        "/workspace/c25_discover.sh",
+        "/workspace/c25_discovery.log"
+      ],
+      "entry_points": ["/workspace/vercel.json", "/workspace/package.json"],
+      "orchestrators": ["/workspace/public/manifest.json", "/workspace/public/vercel.json", "/workspace/.c25_mesh.env", "/workspace/c25_discovery_map.json", "/workspace/packages/c25-agent/backend/middleware/auth.js", "/workspace/packages/c25-agent/backend/middleware/errorHandler.js", "/workspace/packages/c25-agent/backend/config/config.js", "/workspace/packages/c25-agent/backend/package.json", "/workspace/packages/c25-agent/backend/index.js", "/workspace/packages/c25-agent/backend/routes/authentication.js", "/workspace/packages/c25-agent/backend/routes/search.js", "/workspace/packages/c25-agent/backend/routes/weather.js", "/workspace/packages/c25-agent/backend/routes/upload.js", "/workspace/packages/c25-agent/backend/routes/payment.js", "/workspace/packages/c25-agent/backend/routes/graphql.js", "/workspace/packages/c25-agent/tests/test.sh", "/workspace/packages/c25-agent/pipeline/tests/test.sh", "/workspace/packages/c25-agent/integrations/tests/test.sh", "/workspace/packages/c25-agent/package.json", "/workspace/packages/c25-agent/api/public/index.html"]
+    },
+    {
+      "name": "pluto-agent",
+      "file_count": 2,
+      "locations": [
+        "/workspace/c25_discover.sh",
+        "/workspace/c25_discovery.log"
+      ],
+      "entry_points": ["/workspace/vercel.json", "/workspace/package.json"],
+      "orchestrators": ["/workspace/public/manifest.json", "/workspace/public/vercel.json", "/workspace/.c25_mesh.env", "/workspace/c25_discovery_map.json", "/workspace/packages/c25-agent/backend/middleware/auth.js", "/workspace/packages/c25-agent/backend/middleware/errorHandler.js", "/workspace/packages/c25-agent/backend/config/config.js", "/workspace/packages/c25-agent/backend/package.json", "/workspace/packages/c25-agent/backend/index.js", "/workspace/packages/c25-agent/backend/routes/authentication.js", "/workspace/packages/c25-agent/backend/routes/search.js", "/workspace/packages/c25-agent/backend/routes/weather.js", "/workspace/packages/c25-agent/backend/routes/upload.js", "/workspace/packages/c25-agent/backend/routes/payment.js", "/workspace/packages/c25-agent/backend/routes/graphql.js", "/workspace/packages/c25-agent/tests/test.sh", "/workspace/packages/c25-agent/pipeline/tests/test.sh", "/workspace/packages/c25-agent/integrations/tests/test.sh", "/workspace/packages/c25-agent/package.json", "/workspace/packages/c25-agent/api/public/index.html"]
+    },
+    {
+      "name": "venus-agent",
+      "file_count": 2,
+      "locations": [
+        "/workspace/c25_discover.sh",
+        "/workspace/c25_discovery.log"
+      ],
+      "entry_points": ["/workspace/vercel.json", "/workspace/package.json"],
+      "orchestrators": ["/workspace/public/manifest.json", "/workspace/public/vercel.json", "/workspace/.c25_mesh.env", "/workspace/c25_discovery_map.json", "/workspace/packages/c25-agent/backend/middleware/auth.js", "/workspace/packages/c25-agent/backend/middleware/errorHandler.js", "/workspace/packages/c25-agent/backend/config/config.js", "/workspace/packages/c25-agent/backend/package.json", "/workspace/packages/c25-agent/backend/index.js", "/workspace/packages/c25-agent/backend/routes/authentication.js", "/workspace/packages/c25-agent/backend/routes/search.js", "/workspace/packages/c25-agent/backend/routes/weather.js", "/workspace/packages/c25-agent/backend/routes/upload.js", "/workspace/packages/c25-agent/backend/routes/payment.js", "/workspace/packages/c25-agent/backend/routes/graphql.js", "/workspace/packages/c25-agent/tests/test.sh", "/workspace/packages/c25-agent/pipeline/tests/test.sh", "/workspace/packages/c25-agent/integrations/tests/test.sh", "/workspace/packages/c25-agent/package.json", "/workspace/packages/c25-agent/api/public/index.html"]
+    },
+    {
+      "name": "mercury-agent",
+      "file_count": 2,
+      "locations": [
+        "/workspace/c25_discover.sh",
+        "/workspace/c25_discovery.log"
+      ],
+      "entry_points": ["/workspace/vercel.json", "/workspace/package.json"],
+      "orchestrators": ["/workspace/public/manifest.json", "/workspace/public/vercel.json", "/workspace/.c25_mesh.env", "/workspace/c25_discovery_map.json", "/workspace/packages/c25-agent/backend/middleware/auth.js", "/workspace/packages/c25-agent/backend/middleware/errorHandler.js", "/workspace/packages/c25-agent/backend/config/config.js", "/workspace/packages/c25-agent/backend/package.json", "/workspace/packages/c25-agent/backend/index.js", "/workspace/packages/c25-agent/backend/routes/authentication.js", "/workspace/packages/c25-agent/backend/routes/search.js", "/workspace/packages/c25-agent/backend/routes/weather.js", "/workspace/packages/c25-agent/backend/routes/upload.js", "/workspace/packages/c25-agent/backend/routes/payment.js", "/workspace/packages/c25-agent/backend/routes/graphql.js", "/workspace/packages/c25-agent/tests/test.sh", "/workspace/packages/c25-agent/pipeline/tests/test.sh", "/workspace/packages/c25-agent/integrations/tests/test.sh", "/workspace/packages/c25-agent/package.json", "/workspace/packages/c25-agent/api/public/index.html"]
+    },
+    {
+      "name": "andromeda-agent",
+      "file_count": 2,
+      "locations": [
+        "/workspace/c25_discover.sh",
+        "/workspace/c25_discovery.log"
+      ],
+      "entry_points": ["/workspace/vercel.json", "/workspace/package.json"],
+      "orchestrators": ["/workspace/public/manifest.json", "/workspace/public/vercel.json", "/workspace/.c25_mesh.env", "/workspace/c25_discovery_map.json", "/workspace/packages/c25-agent/backend/middleware/auth.js", "/workspace/packages/c25-agent/backend/middleware/errorHandler.js", "/workspace/packages/c25-agent/backend/config/config.js", "/workspace/packages/c25-agent/backend/package.json", "/workspace/packages/c25-agent/backend/index.js", "/workspace/packages/c25-agent/backend/routes/authentication.js", "/workspace/packages/c25-agent/backend/routes/search.js", "/workspace/packages/c25-agent/backend/routes/weather.js", "/workspace/packages/c25-agent/backend/routes/upload.js", "/workspace/packages/c25-agent/backend/routes/payment.js", "/workspace/packages/c25-agent/backend/routes/graphql.js", "/workspace/packages/c25-agent/tests/test.sh", "/workspace/packages/c25-agent/pipeline/tests/test.sh", "/workspace/packages/c25-agent/integrations/tests/test.sh", "/workspace/packages/c25-agent/package.json", "/workspace/packages/c25-agent/api/public/index.html"]
+    },
+    {
+      "name": "claude-artifacts",
+      "file_count": 2,
+      "locations": [
+        "/workspace/c25_discover.sh",
+        "/workspace/c25_discovery.log"
+      ],
+      "entry_points": ["/workspace/vercel.json", "/workspace/package.json"],
+      "orchestrators": ["/workspace/public/manifest.json", "/workspace/public/vercel.json", "/workspace/.c25_mesh.env", "/workspace/c25_discovery_map.json", "/workspace/packages/c25-agent/backend/middleware/auth.js", "/workspace/packages/c25-agent/backend/middleware/errorHandler.js", "/workspace/packages/c25-agent/backend/config/config.js", "/workspace/packages/c25-agent/backend/package.json", "/workspace/packages/c25-agent/backend/index.js", "/workspace/packages/c25-agent/backend/routes/authentication.js", "/workspace/packages/c25-agent/backend/routes/search.js", "/workspace/packages/c25-agent/backend/routes/weather.js", "/workspace/packages/c25-agent/backend/routes/upload.js", "/workspace/packages/c25-agent/backend/routes/payment.js", "/workspace/packages/c25-agent/backend/routes/graphql.js", "/workspace/packages/c25-agent/tests/test.sh", "/workspace/packages/c25-agent/pipeline/tests/test.sh", "/workspace/packages/c25-agent/integrations/tests/test.sh", "/workspace/packages/c25-agent/package.json", "/workspace/packages/c25-agent/api/public/index.html"]
+    },
+    {
+      "name": "artifacts-downloader",
+      "file_count": 2,
+      "locations": [
+        "/workspace/c25_discover.sh",
+        "/workspace/c25_discovery.log"
+      ],
+      "entry_points": ["/workspace/vercel.json", "/workspace/package.json"],
+      "orchestrators": ["/workspace/public/manifest.json", "/workspace/public/vercel.json", "/workspace/.c25_mesh.env", "/workspace/c25_discovery_map.json", "/workspace/packages/c25-agent/backend/middleware/auth.js", "/workspace/packages/c25-agent/backend/middleware/errorHandler.js", "/workspace/packages/c25-agent/backend/config/config.js", "/workspace/packages/c25-agent/backend/package.json", "/workspace/packages/c25-agent/backend/index.js", "/workspace/packages/c25-agent/backend/routes/authentication.js", "/workspace/packages/c25-agent/backend/routes/search.js", "/workspace/packages/c25-agent/backend/routes/weather.js", "/workspace/packages/c25-agent/backend/routes/upload.js", "/workspace/packages/c25-agent/backend/routes/payment.js", "/workspace/packages/c25-agent/backend/routes/graphql.js", "/workspace/packages/c25-agent/tests/test.sh", "/workspace/packages/c25-agent/pipeline/tests/test.sh", "/workspace/packages/c25-agent/integrations/tests/test.sh", "/workspace/packages/c25-agent/package.json", "/workspace/packages/c25-agent/api/public/index.html"]
+    },
+    {
+      "name": "empathic-voice",
+      "file_count": 2,
+      "locations": [
+        "/workspace/c25_discover.sh",
+        "/workspace/c25_discovery.log"
+      ],
+      "entry_points": ["/workspace/vercel.json", "/workspace/package.json"],
+      "orchestrators": ["/workspace/public/manifest.json", "/workspace/public/vercel.json", "/workspace/.c25_mesh.env", "/workspace/c25_discovery_map.json", "/workspace/packages/c25-agent/backend/middleware/auth.js", "/workspace/packages/c25-agent/backend/middleware/errorHandler.js", "/workspace/packages/c25-agent/backend/config/config.js", "/workspace/packages/c25-agent/backend/package.json", "/workspace/packages/c25-agent/backend/index.js", "/workspace/packages/c25-agent/backend/routes/authentication.js", "/workspace/packages/c25-agent/backend/routes/search.js", "/workspace/packages/c25-agent/backend/routes/weather.js", "/workspace/packages/c25-agent/backend/routes/upload.js", "/workspace/packages/c25-agent/backend/routes/payment.js", "/workspace/packages/c25-agent/backend/routes/graphql.js", "/workspace/packages/c25-agent/tests/test.sh", "/workspace/packages/c25-agent/pipeline/tests/test.sh", "/workspace/packages/c25-agent/integrations/tests/test.sh", "/workspace/packages/c25-agent/package.json", "/workspace/packages/c25-agent/api/public/index.html"]
+    },
+    {
+      "name": "voice-interface",
+      "file_count": 2,
+      "locations": [
+        "/workspace/c25_discover.sh",
+        "/workspace/c25_discovery.log"
+      ],
+      "entry_points": ["/workspace/vercel.json", "/workspace/package.json"],
+      "orchestrators": ["/workspace/public/manifest.json", "/workspace/public/vercel.json", "/workspace/.c25_mesh.env", "/workspace/c25_discovery_map.json", "/workspace/packages/c25-agent/backend/middleware/auth.js", "/workspace/packages/c25-agent/backend/middleware/errorHandler.js", "/workspace/packages/c25-agent/backend/config/config.js", "/workspace/packages/c25-agent/backend/package.json", "/workspace/packages/c25-agent/backend/index.js", "/workspace/packages/c25-agent/backend/routes/authentication.js", "/workspace/packages/c25-agent/backend/routes/search.js", "/workspace/packages/c25-agent/backend/routes/weather.js", "/workspace/packages/c25-agent/backend/routes/upload.js", "/workspace/packages/c25-agent/backend/routes/payment.js", "/workspace/packages/c25-agent/backend/routes/graphql.js", "/workspace/packages/c25-agent/tests/test.sh", "/workspace/packages/c25-agent/pipeline/tests/test.sh", "/workspace/packages/c25-agent/integrations/tests/test.sh", "/workspace/packages/c25-agent/package.json", "/workspace/packages/c25-agent/api/public/index.html"]
+    },
+    {
+      "name": "json-formatter",
+      "file_count": 2,
+      "locations": [
+        "/workspace/c25_discover.sh",
+        "/workspace/c25_discovery.log"
+      ],
+      "entry_points": ["/workspace/vercel.json", "/workspace/package.json"],
+      "orchestrators": ["/workspace/public/manifest.json", "/workspace/public/vercel.json", "/workspace/.c25_mesh.env", "/workspace/c25_discovery_map.json", "/workspace/packages/c25-agent/backend/middleware/auth.js", "/workspace/packages/c25-agent/backend/middleware/errorHandler.js", "/workspace/packages/c25-agent/backend/config/config.js", "/workspace/packages/c25-agent/backend/package.json", "/workspace/packages/c25-agent/backend/index.js", "/workspace/packages/c25-agent/backend/routes/authentication.js", "/workspace/packages/c25-agent/backend/routes/search.js", "/workspace/packages/c25-agent/backend/routes/weather.js", "/workspace/packages/c25-agent/backend/routes/upload.js", "/workspace/packages/c25-agent/backend/routes/payment.js", "/workspace/packages/c25-agent/backend/routes/graphql.js", "/workspace/packages/c25-agent/tests/test.sh", "/workspace/packages/c25-agent/pipeline/tests/test.sh", "/workspace/packages/c25-agent/integrations/tests/test.sh", "/workspace/packages/c25-agent/package.json", "/workspace/packages/c25-agent/api/public/index.html"]
+    },
+    {
+      "name": "coral-server",
+      "file_count": 2,
+      "locations": [
+        "/workspace/c25_discover.sh",
+        "/workspace/c25_discovery.log"
+      ],
+      "entry_points": ["/workspace/vercel.json", "/workspace/package.json"],
+      "orchestrators": ["/workspace/public/manifest.json", "/workspace/public/vercel.json", "/workspace/.c25_mesh.env", "/workspace/c25_discovery_map.json", "/workspace/packages/c25-agent/backend/middleware/auth.js", "/workspace/packages/c25-agent/backend/middleware/errorHandler.js", "/workspace/packages/c25-agent/backend/config/config.js", "/workspace/packages/c25-agent/backend/package.json", "/workspace/packages/c25-agent/backend/index.js", "/workspace/packages/c25-agent/backend/routes/authentication.js", "/workspace/packages/c25-agent/backend/routes/search.js", "/workspace/packages/c25-agent/backend/routes/weather.js", "/workspace/packages/c25-agent/backend/routes/upload.js", "/workspace/packages/c25-agent/backend/routes/payment.js", "/workspace/packages/c25-agent/backend/routes/graphql.js", "/workspace/packages/c25-agent/tests/test.sh", "/workspace/packages/c25-agent/pipeline/tests/test.sh", "/workspace/packages/c25-agent/integrations/tests/test.sh", "/workspace/packages/c25-agent/package.json", "/workspace/packages/c25-agent/api/public/index.html"]
+    },
+    {
+      "name": "repodepot",
+      "file_count": 2,
+      "locations": [
+        "/workspace/c25_discover.sh",
+        "/workspace/c25_discovery.log"
+      ],
+      "entry_points": ["/workspace/vercel.json", "/workspace/package.json"],
+      "orchestrators": ["/workspace/public/manifest.json", "/workspace/public/vercel.json", "/workspace/.c25_mesh.env", "/workspace/c25_discovery_map.json", "/workspace/packages/c25-agent/backend/middleware/auth.js", "/workspace/packages/c25-agent/backend/middleware/errorHandler.js", "/workspace/packages/c25-agent/backend/config/config.js", "/workspace/packages/c25-agent/backend/package.json", "/workspace/packages/c25-agent/backend/index.js", "/workspace/packages/c25-agent/backend/routes/authentication.js", "/workspace/packages/c25-agent/backend/routes/search.js", "/workspace/packages/c25-agent/backend/routes/weather.js", "/workspace/packages/c25-agent/backend/routes/upload.js", "/workspace/packages/c25-agent/backend/routes/payment.js", "/workspace/packages/c25-agent/backend/routes/graphql.js", "/workspace/packages/c25-agent/tests/test.sh", "/workspace/packages/c25-agent/pipeline/tests/test.sh", "/workspace/packages/c25-agent/integrations/tests/test.sh", "/workspace/packages/c25-agent/package.json", "/workspace/packages/c25-agent/api/public/index.html"]
+    },
+    {
+      "name": "ai-records",
+      "file_count": 2,
+      "locations": [
+        "/workspace/c25_discover.sh",
+        "/workspace/c25_discovery.log"
+      ],
+      "entry_points": ["/workspace/vercel.json", "/workspace/package.json"],
+      "orchestrators": ["/workspace/public/manifest.json", "/workspace/public/vercel.json", "/workspace/.c25_mesh.env", "/workspace/c25_discovery_map.json", "/workspace/packages/c25-agent/backend/middleware/auth.js", "/workspace/packages/c25-agent/backend/middleware/errorHandler.js", "/workspace/packages/c25-agent/backend/config/config.js", "/workspace/packages/c25-agent/backend/package.json", "/workspace/packages/c25-agent/backend/index.js", "/workspace/packages/c25-agent/backend/routes/authentication.js", "/workspace/packages/c25-agent/backend/routes/search.js", "/workspace/packages/c25-agent/backend/routes/weather.js", "/workspace/packages/c25-agent/backend/routes/upload.js", "/workspace/packages/c25-agent/backend/routes/payment.js", "/workspace/packages/c25-agent/backend/routes/graphql.js", "/workspace/packages/c25-agent/tests/test.sh", "/workspace/packages/c25-agent/pipeline/tests/test.sh", "/workspace/packages/c25-agent/integrations/tests/test.sh", "/workspace/packages/c25-agent/package.json", "/workspace/packages/c25-agent/api/public/index.html"]
+    }
+  ],
+  "global_entry_points": [
+    "/workspace/public/vercel.json",
+    "/workspace/packages/c25-agent/backend/index.js",
+    "/workspace/packages/c25-agent/pipeline/vercel.json",
+    "/workspace/packages/c25-agent/integrations/vercel.json",
+    "/workspace/packages/c25-agent/api/vercel.json",
+    "/workspace/packages/c25-agent/vercel.json",
+    "/workspace/packages/constellation25/server.js",
+    "/workspace/packages/constellation25/vercel.json",
+    "/workspace/packages/faceprintpay/pathos-ai/vercel.json",
+    "/workspace/packages/faceprintpay/pathos-ai/virtual-platform/backend/server.js",
+    "/workspace/packages/faceprintpay/sovereign-genesis/vercel.json",
+    "/workspace/packages/faceprintpay/versed-ai/public/vercel.json",
+    "/workspace/packages/faceprintpay/versed-ai/vercel.json",
+    "/workspace/vercel.json"
+  ],
+  "global_orchestrators": [
+    "/workspace/c25_discovery_map.json",
+    "/workspace/packages/c25-agent/backend/config/config.js",
+    "/workspace/packages/c25-agent/backend/routes/authentication.js",
+    "/workspace/packages/c25-agent/backend/routes/search.js",
+    "/workspace/packages/c25-agent/backend/routes/weather.js",
+    "/workspace/packages/c25-agent/backend/routes/upload.js",
+    "/workspace/packages/c25-agent/backend/routes/payment.js",
+    "/workspace/packages/c25-agent/backend/routes/graphql.js",
+    "/workspace/packages/c25-agent/package.json",
+    "/workspace/packages/constellation25/server.js",
+    "/workspace/packages/constellation25/C25_Empire.ipynb",
+    "/workspace/packages/constellation25/c25_sovereign_pack/C25_SOVEREIGN_MASTER.md",
+    "/workspace/packages/constellation25/README.md",
+    "/workspace/packages/constellation25/orchestrator.js",
+    "/workspace/packages/faceprintpay/pathos-ai/virtual-platform/frontend/src/components/Navbar.js",
+    "/workspace/packages/faceprintpay/pathos-ai/virtual-platform/frontend/src/components/Login.js",
+    "/workspace/packages/faceprintpay/pathos-ai/virtual-platform/frontend/src/components/Register.js",
+    "/workspace/packages/faceprintpay/pathos-ai/virtual-platform/frontend/src/components/Home.js",
+    "/workspace/packages/faceprintpay/pathos-ai/virtual-platform/frontend/src/App.js",
+    "/workspace/packages/faceprintpay/pathos-ai/virtual-platform/frontend/package.json",
+    "/workspace/packages/faceprintpay/pathos-ai/virtual-platform/backend/server.js",
+    "/workspace/packages/faceprintpay/pathos-ai/virtual-platform/backend/middleware/license.js",
+    "/workspace/packages/faceprintpay/pathos-ai/virtual-platform/backend/middleware/auth.js",
+    "/workspace/packages/faceprintpay/pathos-ai/virtual-platform/backend/routes/pathos.js",
+    "/workspace/packages/faceprintpay/pathos-ai/virtual-platform/backend/routes/auth.js",
+    "/workspace/packages/faceprintpay/versed-ai/public/index.html",
+    "/workspace/packages/faceprintpay/versed-ai/src/8.8ec4dac799489daeb8ca.looka.js",
+    "/workspace/packages/faceprintpay/versed-ai/src/main.03ee8949a33a01d9076c.looka.js",
+    "/workspace/packages/faceprintpay/versed-ai/src/remote.js",
+    "/workspace/packages/faceprintpay/versed-ai/src/jquery.js",
+    "/workspace/packages/faceprintpay/versed-ai/src/hammer.min.js",
+    "/workspace/packages/faceprintpay/versed-ai/src/10.21a8d5e7aa09c77a24ca.looka.js",
+    "/workspace/packages/faceprintpay/versed-ai/src/cookienotificationbar.min.js",
+    "/workspace/packages/faceprintpay/versed-ai/src/iPEf94t7kg41AT9t4roGKH7lRPlVKxurQ2Q3DUZ2d_o.js",
+    "/workspace/packages/faceprintpay/versed-ai/src/three.min.js",
+    "/workspace/packages/faceprintpay/versed-ai/src/ScrollTrigger.min.js",
+    "/workspace/packages/faceprintpay/versed-ai/src/main.js",
+    "/workspace/packages/faceprintpay/versed-ai/src/www-widgetapi.js",
+    "/workspace/packages/faceprintpay/versed-ai/src/www-embed-player.js",
+    "/workspace/packages/faceprintpay/versed-ai/src/base.js",
+    "/workspace/packages/faceprintpay/versed-ai/summary/latest_summary.md",
+    "/workspace/packages/faceprintpay/versed-ai/diagnostics.go",
+    "/workspace/packages/faceprintpay/versed-ai/tasks/agent_ops.py",
+    "/workspace/packages/faceprintpay/versed-ai/tasks/jupiter_strategy.py",
+    "/workspace/packages/faceprintpay/versed-ai/tasks/sun_core.py",
+    "/workspace/packages/faceprintpay/versed-ai/AMetaversetoolbox",
+    "/workspace/packages/faceprintpay/versed-ai/agents_bus.json",
+    "/workspace/packages/faceprintpay/versed-ai/command.go",
+    "/workspace/packages/faceprintpay/versed-ai/implementation.md",
+    "/workspace/packages/faceprintpay/versed-ai/js"
+  ],
+  "vercel_projects": [
+    "/workspace/public",
+    "/workspace/packages/c25-agent/pipeline",
+    "/workspace/packages/c25-agent/integrations",
+    "/workspace/packages/c25-agent/api",
+    "/workspace/packages/c25-agent",
+    "/workspace/packages/constellation25",
+    "/workspace/packages/faceprintpay/pathos-ai",
+    "/workspace/packages/faceprintpay/sovereign-genesis",
+    "/workspace/packages/faceprintpay/versed-ai/public",
+    "/workspace/packages/faceprintpay/versed-ai",
+    "/workspace"
+  ],
+  "git_repositories": [
+    {"path": "/workspace", "remote": "no-remote", "branch": "qwen-code-95284677-8db2-4d51-885f-95ec6f3356f8"}
+  ],
+  "obsidian_vaults": [
+    ""
+  ]
+}
+
+[0;36m--- END MAP ---[0m
