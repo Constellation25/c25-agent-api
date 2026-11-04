@@ -1,9 +1,8 @@
-const express = require('express');
-const router = express.Router();
-const axios = require('axios');
-const NodeCache = require('node-cache');
-const config = require('../config/config');
-const { APIError, asyncHandler } = require('../middleware/errorHandler');
+import express from 'express';
+import axios from 'axios';
+import NodeCache from 'node-cache';
+import config from '../config/config.js';
+import { APIError, asyncHandler } from '../middleware/errorHandler.js';
 
 // Initialize cache
 const cache = new NodeCache({
@@ -47,6 +46,8 @@ const formatWeatherData = (data) => {
 const generateCacheKey = (query) => {
     return `weather:${query.toLowerCase()}`;
 };
+
+const router = express.Router();
 
 // GET /api/weather - Get weather data by city or coordinates
 router.get('/', asyncHandler(async (req, res) => {
@@ -221,7 +222,7 @@ router.get('/forecast', asyncHandler(async (req, res) => {
 }));
 
 // GET /api/weather/cache/clear - Clear weather cache (admin only)
-router.get('/cache/clear', asyncHandler(async (req, res) => {
+router.get('/cache/clear', asyncHandler(async (_req, res) => {
     // Clear all cache
     cache.flushAll();
     
@@ -231,4 +232,4 @@ router.get('/cache/clear', asyncHandler(async (req, res) => {
     });
 }));
 
-module.exports = router;
+export default router;

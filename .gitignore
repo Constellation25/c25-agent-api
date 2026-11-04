@@ -5,3 +5,74 @@
 # Discovery map JSON (likely generated)
 c25_discovery_map.json
 ```
+
+# Build artifacts and distributions
+# Build outputs (if any build process exists)
+# Compressed files
+# Coverage reports
+# Dependencies
+# Editor/IDE files
+# Environment files
+# Environment variables
+# IDE files
+# Local configuration that might be generated
+# Logs
+# Logs and temporary files
+# OS files
+# OS generated files
+# Python cache (if any Python files exist in the project)
+# Temporary files
+*.7z
+*.Z
+*.arj
+*.bz2
+*.cab
+*.db
+*.deb
+*.egg-info/
+*.env.*
+*.gz
+*.log
+*.lz
+*.lz4
+*.lzh
+*.lzo
+*.partial
+*.pid
+*.pyc
+*.pyd
+*.pyo
+*.rar
+*.rpm
+*.sqlite
+*.swo
+*.swp
+*.tar
+*.tgz
+*.tmp
+*.xz
+*.zip
+*.zst
+.DS_Store
+.cache/
+.coverage
+.env
+.env*
+.env.local
+.idea/
+.mypy_cache/
+.pytest_cache/
+.venv/
+.vscode/
+Thumbs.db
+__pycache__/
+```
+```node_modules/
+build/
+config.local.js
+coverage/
+dist/
+htmlcov/
+node_modules/
+target/
+venv/

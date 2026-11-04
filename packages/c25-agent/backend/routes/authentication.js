@@ -1,9 +1,8 @@
-const express = require('express');
-const router = express.Router();
-const jwt = require('jsonwebtoken');
-const bcrypt = require('bcryptjs');
-const config = require('../config/config');
-const { APIError, asyncHandler } = require('../middleware/errorHandler');
+import express from 'express';
+import jwt from 'jsonwebtoken';
+import bcrypt from 'bcryptjs';
+import config from '../config/config.js';
+import { APIError, asyncHandler } from '../middleware/errorHandler.js';
 
 // In-memory user storage (replace with database in production)
 const users = new Map();
@@ -35,6 +34,8 @@ const isValidPassword = (password) => {
            /[0-9]/.test(password) && // at least one number
            /[^A-Za-z0-9]/.test(password); // at least one special character
 };
+
+const router = express.Router();
 
 // POST /api/auth/register - User registration
 router.post('/register', asyncHandler(async (req, res) => {
@@ -115,8 +116,8 @@ router.post('/login', asyncHandler(async (req, res) => {
     }
 
     // Verify password
-    const isValidPassword = await bcrypt.compare(password, user.password);
-    if (!isValidPassword) {
+    const isPasswordValid = await bcrypt.compare(password, user.password);
+    if (!isPasswordValid) {
         throw new APIError('Invalid credentials', 401);
     }
 
@@ -204,4 +205,4 @@ router.put('/change-password', asyncHandler(async (req, res) => {
     });
 }));
 
-module.exports = router;
+export default router;

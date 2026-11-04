@@ -1,13 +1,13 @@
-const jwt = require('jsonwebtoken');
-const config = require('../config/config');
-const { APIError } = require('./errorHandler');
+import jwt from 'jsonwebtoken';
+import config from '../config/config.js';
+import { APIError } from './errorHandler.js';
 
 /**
  * Authentication middleware
  * Verifies JWT tokens and attaches user data to request
  */
 
-const auth = async (req, res, next) => {
+export const auth = async (req, res, next) => {
     try {
         // Get token from header
         const authHeader = req.headers.authorization;
@@ -50,7 +50,7 @@ const auth = async (req, res, next) => {
  * Role-based authorization middleware
  * Checks if authenticated user has required role
  */
-const authorize = (roles = []) => {
+export const authorize = (roles = []) => {
     if (typeof roles === 'string') {
         roles = [roles];
     }
@@ -72,7 +72,7 @@ const authorize = (roles = []) => {
  * Optional authentication middleware
  * Attaches user data if token is present but doesn't require it
  */
-const optionalAuth = async (req, res, next) => {
+export const optionalAuth = async (req, res, next) => {
     try {
         const authHeader = req.headers.authorization;
         
@@ -94,10 +94,4 @@ const optionalAuth = async (req, res, next) => {
     } catch (error) {
         next(error);
     }
-};
-
-module.exports = {
-    auth,
-    authorize,
-    optionalAuth
 };
