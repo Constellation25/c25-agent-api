@@ -1,3 +1,10 @@
+```bash
+# Log files
+*.log
+
+# Discovery map JSON (likely generated)
+c25_discovery_map.json
+```
 
 # Build artifacts and distributions
 # Build outputs (if any build process exists)
